@@ -6,7 +6,7 @@ favicon: images/favicon.ico
 name: Saim Mehmood
 title: Data Engineer | Python
 email: saim.mehmood.gul@gmail.com
-website: saimmemhmood.com
+#website: saimmemhmood.com
 
 # Social links
 # twitter_username: facespics
@@ -24,9 +24,15 @@ linkedin_username: saimmehmoodgul
 # about_title: About Me
 about_profile_image: images/circle-cropped.png
 about_content: | # this will include new lines to allow paragraphs
-  Hi, my name's Brett and I'm a senior network system administrator. As well as administrating systems I also have experience making software and web apps. I have worked at a number of companies gaining teamwork and leadership skills.
-
-  I am most skilled in: <mark>AWS</mark> and <mark>Eating Pizza</mark>
+  I am a young researcher working in the field of Data Mining with 2 years of experience working at the 
+    [Data Mining Lab] (http://dminer.eecs.yorku.ca/) @ Lassonde School of Engineering, York University Toronto. 
+    I love working with Spatial Data sets for which I use PostgreSQL & PostGIS and Python to extract insights.
+    I typically visualize data sets along the way to understand the pipelines and models I'm creating.
+    
+    
+    I have also worked on a project related to Cloud Computing @ Uppsala University, Sweden. 
+    
+    Currently I'm working under the supervision [Prof. Manos Papagelis] (https://www.eecs.yorku.ca/~papaggel/).
 
 # Projects Section
 # projects_title: Projects
