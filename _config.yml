@@ -1,11 +1,14 @@
 # Site
-repository: sproogen/resume-theme
+# repository: sproogen/resume-theme
 favicon: images/favicon.ico
+
+darkmode: false
 
 # Personal info
 name: Saim Mehmood
 title: Data Engineer | Python
 email: saim.mehmood.gul@gmail.com
+phone: (437) 998-9171
 #website: saimmemhmood.com
 
 # Social links
@@ -25,7 +28,7 @@ linkedin_username: saimmehmoodgul
 about_profile_image: images/circle-cropped.png
 about_content: | # this will include new lines to allow paragraphs
   I am a young researcher working in the field of Data Mining with 2 years of experience working at the 
-    [Data Mining Lab](http://dminer.eecs.yorku.ca/) @ Lassonde School of Engineering, York University Toronto. 
+    [Data Mining Lab](https://dminer.eecs.yorku.ca/) @ Lassonde School of Engineering, York University Toronto. 
     I love working with Spatial Data sets for which I use PostgreSQL & PostGIS and Python to extract insights.
     I typically visualize data sets along the way to understand the pipelines and models I'm creating.
     
@@ -56,7 +59,8 @@ more_content: | # this will include new lines to allow paragraphs
 footer_show_references: true
 
 # Build settings
-remote_theme: sproogen/resume-theme
+# theme: modern-resume-theme (Use this is you are hosting your resume yourself)
+# remote_theme: sproogen/modern-resume-theme (Use this if you are hosting your resume on GitHub)
 
 sass:
   sass_dir: _sass
@@ -64,3 +68,16 @@ sass:
 
 plugins:
  - jekyll-seo-tag
+
+exclude : [
+  "Gemfile",
+  "Gemfile.lock",
+  "node_modules",
+  "vendor/bundle/",
+  "vendor/cache/",
+  "vendor/gems/",
+  "vendor/ruby/",
+  "lib/",
+  "scripts/",
+  "docker-compose.yml",
+  ]
