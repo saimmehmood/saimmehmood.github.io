@@ -3,8 +3,19 @@
   link: http://dminer.eecs.yorku.ca/
   job_title: Graduate Researcher
   dates: January 2018 - to date
-  quote: >
-   Solving 21st century problems by diging holes and making game changing products like the *not a flamethrower*
+  # quote: >
+  #  Solving 21st century problems by diging holes and making game changing products like the *not a flamethrower*
   description: | # this will include new lines to allow paragraphs
     My research is related to trajectory data mining, location-based services and recommendation systems. I’m using spatial data-sets to understand geographical areas such as towns and cities as how they are perceived by the people living and commuting in them. This understanding can be used for various recommendation tasks.
+    
+
+  layout: left
+  company: Data Mining Lab, Lassonde School of Engineering, York University
+  link: http://dminer.eecs.yorku.ca/
+  job_title: Graduate Teaching Assistant
+  dates: January 2018 - to date
+  # quote: >
+  #  Solving 21st century problems by diging holes and making game changing products like the *not a flamethrower*
+  description: | # this will include new lines to allow paragraphs
+  Programming for Mobile Computing (EECS-1022) - Communicated concepts and helped students with their labs. | **OOP, Java, Android Studio**
     
