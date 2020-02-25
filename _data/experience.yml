@@ -10,11 +10,22 @@
     
 
 - layout: left
-  company: Data Mining Lab, Lassonde School of Engineering, York University
-  link: http://dminer.eecs.yorku.ca/
+  company: EECS, Lassonde School of Engineering, York University
+  # link: http://dminer.eecs.yorku.ca/
   job_title: Graduate Teaching Assistant
   dates: January 2018 - to date
   # quote: >
   #  Solving 21st century problems by diging holes and making game changing products like the *not a flamethrower*
   description: | # this will include new lines to allow paragraphs
-    Programming for Mobile Computing (EECS-1022) - Communicated concepts and helped students with their labs. | **OOP, Java, Android Studio**
+    Programming for Mobile Computing (EECS-1022) - Communicated concepts and helped students with their labs. **OOP, Java, Android Studio**
+
+- layout: left
+  company: Swedish National Infrastructure for Computing, Uppsala University
+  # link: http://dminer.eecs.yorku.ca/
+  job_title: Erasmus Scholar
+  dates: August 2015 - to January 2016
+  # quote: >
+  #  Solving 21st century problems by diging holes and making game changing products like the *not a flamethrower*
+  description: | # this will include new lines to allow paragraphs
+    Designed a framework inside SNIC using Apache Spark, SparkR & Jupyter Notebook to enable computations of highly parallel scientific applications. Our project enabled researchers to seamlessly deploy their applications on the spark server and scale it to multiple worker nodes as needed. 
+    
