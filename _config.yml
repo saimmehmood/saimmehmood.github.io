@@ -7,7 +7,7 @@ darkmode: false
 # Personal info
 name: Saim Mehmood
 title: Data Engineer | Python
-email: saim.mehmood.gul@gmail.com
+email: saim.mehmood.gul(at)gmail.com
 phone: (437) 998-9171
 #website: saimmemhmood.com
 
@@ -47,13 +47,13 @@ about_content: | # this will include new lines to allow paragraphs
 # educaton_title: Education
 
 # More Section
-# more_title: A Little More About Me
+# more_title: Honors and Awards
 more_content: | # this will include new lines to allow paragraphs
-  Alongside my interests in networks and software engineering some of my other interests and hobbies are:
-   - Rock climbing
-   - Gaming
-   - Knitting
-   - [Becoming a ninja](https://www.youtube.com/watch?v=vtg4o__aRMg)
+  Alongside my interests in data mining and software engineering I earned some awards:
+   - Awarded York University Graduate Fellowship for M.Sc. Computer Science, January 2018
+   - Represented Pakistani youth in China, Pakistan Youth Delegation, August 2016
+   - Won Erasmus Mundus Exchange Scholarship to spend an exchange semester at Uppsala University, May 2015 
+   - Winner 17th In-House Speed Programming Competition, University of the Punjab, May 2015
 
 # Footer
 footer_show_references: true

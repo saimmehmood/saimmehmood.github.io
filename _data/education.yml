@@ -6,17 +6,16 @@
     York University is a public research university in Toronto, Ontario, Canada. It is Canada's third-largest university, and it has approximately 55,700 students, 7000 faculty and staff, and over 315,000 alumni worldwide.
 
   description: | # this will include new lines to allow paragraphs
-    During my time at Harvard I learnt most of my key skills that have I have taken through my career such as teamwork and working to tight deadlines. I thouroughly enjoyed my time as university and learnt a lot about a healthy work life balance.
-
-    I spent a lot of my free time as a committee member of the *Harvard Mountaineering Club* taking on roles such as *Trip Secretary* and *Vice-President*.
-
+    My studies at York University were focused on extensive research. I accumulated a wealth of knowledge in the area of Data Mining, Big Data, Data Science and Machine Learning. I also submitted a research track paper for **The 21st IEEE International Conference on Mobile Data Management.**
+    
+    **Notable Courses:** Data Mining, Mining Software Engineering Data
 - layout: left
   name: University of the Punjab
   dates: Sep 2012 - Jul 2016
-  qualification: BS Software Engineering
+  qualification: Bachelor of Sciences in Software Engineering
   quote: >
-    Established in 1636, Harvard is the oldest higher education institution in the United States, and is widely regarded in terms of its influence, reputation, and academic pedigree as a leading university in not just the US but also the world.
+    University of the Punjab is a public research university located in Lahore, Punjab, Pakistan. It is the oldest public university in Pakistan. 
   description: | # this will include new lines to allow paragraphs
-    During my time at Harvard I learnt most of my key skills that have I have taken through my career such as teamwork and working to tight deadlines. I thouroughly enjoyed my time as university and learnt a lot about a healthy work life balance.
+    Four years of undergrad at University of the Punjab helped shaped my understanding of cloud computing, software development, and its requirements engineering. During the course of my studies, I earned an Erasmus Mundus scholarship to spend an exchange semester at Uppsala University.
 
-    I spent a lot of my free time as a committee member of the *Harvard Mountaineering Club* taking on roles such as *Trip Secretary* and *Vice-President*.
+    **Notable Courses:** Applied Cloud Computing, Software Requirements Engineering, Database Systems
