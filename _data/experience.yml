@@ -17,8 +17,15 @@
   # quote: >
   #  Solving 21st century problems by diging holes and making game changing products like the *not a flamethrower*
   description: | # this will include new lines to allow paragraphs
-    Programming for Mobile Computing (EECS-1022) - Communicated concepts and helped students with their labs. **OOP, Java, Android Studio**
+    I have been teaching multiple courses at the Electrical Engineering and Computer Science department with Prof Jackie Wang (EECS 1022 and 3311).
 
+    Courses:
+    Programming for Mobile Computing [EECS 1022](https://bit.ly/2JRlrjd) - Introduction to Database Systems (EECS 3412) - Software Design [EECS 3311](https://bit.ly/2AXJxpL)
+    
+    Tasks include: directing tutorials, exam invigilation, final and midterm exam review sessions, grading assignment/exams, office hour duties. **OOP, Java, Android Studio**
+
+  #Lists: 
+    
 - layout: left
   company: Swedish National Infrastructure for Computing, Uppsala University
   # link: http://dminer.eecs.yorku.ca/
