@@ -5,7 +5,7 @@
   quote: >
         Python (networkx, pandas, numpy, seaborn, matplotlib), PostgreSQL, PostGIS, MATLAB, Google Cloud (Places & Directions) API
   description: | # this will include new lines to allow paragraphs
-    • Developed a framework to understand semantic relationships between geographical areas based on object movement paths i.e., trajectories. (submitted research track paper for IEEE Mobile Data Management 2020)
+    • Developed a framework to understand semantic relationships between geographical areas based on object movement paths i.e., trajectories. *(accepted research track paper for IEEE Mobile Data Management 2020)*
   
 
 - layout: top-middle
@@ -17,3 +17,12 @@
   description: | # this will include new lines to allow paragraphs
     •	Built a search engine to find expert developers by utilizing GitHub datasets. 
     •	Reduced 3TB of data into merely 600 MB by keeping developer specific information such as (number of commits, first and last commit, average time between commits etc.)
+
+- layout: top-middle
+  name: Towards Moving Scientific Applications in the Cloud 
+  link: https://github.com/saimmehmood/Towards-Moving-Scientific-Applications-in-the-Cloud
+  github: sproogen/resume-theme
+  quote: >
+        Cloud Computing, OpenStack, Apache Spark, Jupyter Notebook
+  description: | # this will include new lines to allow paragraphs
+    • Cloud computing provides usability, scalability and on demand availability of computational and storage resources, remotely. These are the characteristics required by scientific applications and that's why we used it. The project had two dimensions. First one addresses the benefits of cloud infrastructure for end users. In the second portion, we tried to do performance analysis.
