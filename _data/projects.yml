@@ -1,6 +1,6 @@
 - layout: top-middle
   name: Learning Semantic Relationships of Geographical Areas based on Trajectories
-  link: https://github.com/saimmehmood/POI_Clustering
+  link: https://github.com/saimmehmood/semantic_relationships
   github: sproogen/resume-theme
   quote: >
         Python (networkx, pandas, numpy, seaborn, matplotlib), PostgreSQL, PostGIS, MATLAB, Google Cloud (Places & Directions) API
