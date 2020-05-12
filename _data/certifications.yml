@@ -1,0 +1,18 @@
+# certification template
+- layout: left
+  name: Building and Deploying Deep Learning Applications with TensorFlow 
+  dates: May 2020 
+  icon: award # (optional)
+  link: http://www.linkedin.com/learning/building-and-deploying-deep-learning-applications-with-tensorflow
+  #image_url: images/certifications/tensor.jpg # (eg. images/certifications/1.jpg)
+  description: | # this will include new lines to allow paragraphs
+    Certificate Id: AWicQXDaNcUPhvLn1tuwN_zDxNAo
+
+- layout: left
+  name: Introduction to Quantum Computing
+  dates: March 2020 
+  icon: award # (optional)
+  link: http://www.linkedin.com/learning/introduction-to-quantum-computing
+  #image_url: images/certifications/tensor.jpg # (eg. images/certifications/1.jpg)
+  description: | # this will include new lines to allow paragraphs
+    Certificate No: AY7IBy3zoehD_C4j4fc-gqdE_brr

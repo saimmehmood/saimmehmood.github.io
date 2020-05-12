@@ -6,7 +6,7 @@ darkmode: false
 
 # Personal info
 name: Saim Mehmood
-title: Data Scientist | Python
+title: Data Scientist | Python | Quantum Computing nerd
 email: saim.mehmood.gul(at)gmail.com
 phone: +1 (437) 998-9171
 #website: saimmemhmood.com
@@ -46,6 +46,9 @@ about_content: | # this will include new lines to allow paragraphs
 
 # Education Section
 # educaton_title: Education
+
+# Certificate Section
+# certificate_title: Certifications
 
 # More Section
 # more_title: Honors and Awards
