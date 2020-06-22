@@ -6,13 +6,13 @@
   # quote: >
   #  Solving 21st century problems by diging holes and making game changing products like the *not a flamethrower*
   description: | # this will include new lines to allow paragraphs
-    - My research is related to **trajectory data mining, location-based services** and **recommender systems**. 
+    My research is related to **trajectory data mining, location-based services** and **recommender systems**. 
 
-    - Building semantic relationships of city neighborhoods, based on mapping the trajectories of users through GPS.
+    Building semantic relationships of city neighborhoods, based on mapping the trajectories of users through GPS.
 
-    - Dividing a city into a geographic grid, we examine the paths that users take through the city's grid cells at different times of day and days of the week. We can then cluster grid cells with similar trajectories according to their semantic properties (e.g., office workers all visit the same grid cell at 9 am on weekdays). 
+    Dividing a city into a geographic grid, we examine the paths that users take through the city's grid cells at different times of day and days of the week. We can then cluster grid cells with similar trajectories according to their semantic properties (e.g., office workers all visit the same grid cell at 9 am on weekdays). 
     
-    - This makes it possible to develop a completely crowdsourced, location-based recommender system that suggest points of interest to a user based on where they have recently visited.
+    This makes it possible to develop a completely crowdsourced, location-based recommender system that suggest points of interest to a user based on where they have recently visited.
 
 
 - layout: left
@@ -23,12 +23,12 @@
   # quote: >
   #  Solving 21st century problems by diging holes and making game changing products like the *not a flamethrower*
   description: | # this will include new lines to allow paragraphs
-    - I have been TAing multiple courses at the Electrical Engineering and Computer Science department with Prof Jackie Wang (EECS 1022 and 3311).
+    I have been TAing multiple courses at the Electrical Engineering and Computer Science department with Prof Jackie Wang (EECS 1022 and 3311).
 
-    - Courses:
+    Courses:
     Programming for Mobile Computing [EECS 1022](https://bit.ly/2JRlrjd) - Introduction to Database Systems (EECS 3412) - Software Design [EECS 3311](https://bit.ly/2AXJxpL)
     
-    - Tasks include: directing tutorials, exam invigilation, final and midterm exam review sessions, grading assignment/exams, office hour duties. **OOP, Java, Android Studio**
+    Tasks include: directing tutorials, exam invigilation, final and midterm exam review sessions, grading assignment/exams, office hour duties. **OOP, Java, Android Studio**
 
   #Lists: 
     
@@ -40,6 +40,6 @@
   # quote: >
   #  Solving 21st century problems by diging holes and making game changing products like the *not a flamethrower*
   description: | # this will include new lines to allow paragraphs
-    - Designed a framework inside SNIC using **Apache Spark, SparkR & Jupyter Notebook** to simplify computations of highly parallel scientific applications. 
+    Designed a framework inside SNIC using **Apache Spark, SparkR & Jupyter Notebook** to simplify computations of highly parallel scientific applications. 
     
-    - Our project enabled researchers to seamlessly deploy their applications on the spark server and scale it to multiple worker nodes as needed. 
+    Our project enabled researchers to seamlessly deploy their applications on the spark server and scale it to multiple worker nodes as needed. 
