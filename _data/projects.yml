@@ -5,7 +5,7 @@
   quote: >
         Python (networkx, pandas, numpy, seaborn, matplotlib), PostgreSQL, PostGIS, MATLAB, Google Cloud (Places & Directions) API
   description: | # this will include new lines to allow paragraphs
-    • Developed a framework to understand semantic relationships between geographical areas based on object movement paths i.e., trajectories. *(accepted research track paper for IEEE Mobile Data Management 2020)*
+    • Developed a framework to understand semantic relationships between geographical areas based on object movement paths i.e., trajectories. **(Best Paper Award for IEEE Conference on Mobile Data Management 2020)**
   
 
 - layout: top-middle
