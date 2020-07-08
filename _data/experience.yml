@@ -12,7 +12,7 @@
 
     Dividing a city into a geographic grid, we examine the paths that users take through the city's grid cells at different times of day and days of the week. We can then cluster grid cells with similar trajectories according to their semantic properties (e.g., office workers all visit the same grid cell at 9 am on weekdays). 
     
-    This makes it possible to develop a completely crowdsourced, location-based recommender system that suggest points of interest to a user based on where they have recently visited.
+    This makes it possible to develop a completely crowdsourced, location-based recommender system that can suggest points of interest to a user based on where they have recently visited.
 
 
 - layout: left
