@@ -9,7 +9,11 @@
     The research was related to **trajectory data mining, location-based services** and **recommender systems**. 
     
     We developed a method that utilizes trajectories to learn low-dimensional representations of geographical areas
-    that the trajectories span in an embedded space. The method relies on random-walk based approaches for 
+    that the trajectories span in an embedded space. The method relies on random-walk based approaches for learning 
+    node representation of a graph and is able to reveal latent relationships of geographical areas, effectively defining semantic relationships between them.
+
+    These latent semantic relationships can improve our understanding of how space is perceived by individuals (through their trajectories) 
+    and inform better decisions of urban planning etc.
 
 - layout: left
   company: EECS, Lassonde School of Engineering, York University
@@ -25,8 +29,7 @@
     Programming for Mobile Computing [EECS 1022](https://bit.ly/2JRlrjd) - Introduction to Database Systems (EECS 3412) - Software Design [EECS 3311](https://bit.ly/2AXJxpL)
     
     Tasks include: directing tutorials, exam invigilation, final and midterm exam review sessions, grading assignment/exams, office hour duties. **OOP, Java, Android Studio**
-
-  #Lists: 
+  
     
 - layout: left
   company: Swedish National Infrastructure for Computing, Uppsala University
