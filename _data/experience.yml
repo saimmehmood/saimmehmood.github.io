@@ -6,14 +6,10 @@
   # quote: >
   #  Solving 21st century problems by diging holes and making game changing products like the *not a flamethrower*
   description: | # this will include new lines to allow paragraphs
-    My research was related to **trajectory data mining, location-based services** and **recommender systems**. 
-
-    Building semantic relationships of city neighborhoods, based on mapping the trajectories of users through GPS.
-
-    Dividing a city into a geographic grid, we examine the paths that users take through the city's grid cells at different times of day and days of the week. We can then cluster grid cells with similar trajectories according to their semantic properties (e.g., office workers all visit the same grid cell at 9 am on weekdays). 
+    The research was related to **trajectory data mining, location-based services** and **recommender systems**. 
     
-    This makes it possible to develop a completely crowdsourced, location-based recommender system that can suggest points of interest to a user based on where they have recently visited.
-
+    We developed a method that utilizes trajectories to learn low-dimensional representations of geographical areas
+    that the trajectories span in an embedded space. The method relies on random-walk based approaches for 
 
 - layout: left
   company: EECS, Lassonde School of Engineering, York University
