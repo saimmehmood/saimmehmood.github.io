@@ -6,7 +6,7 @@
   # quote: >
   #  Solving 21st century problems by diging holes and making game changing products like the *not a flamethrower*
   description: | # this will include new lines to allow paragraphs
-    The research was related to **trajectory data mining, location-based services** and **recommender systems**. 
+    The research was related to trajectory data mining and location-based services. 
     
     We developed a method that utilizes trajectories to learn low-dimensional representations of geographical areas
     that the trajectories span in an embedded space. The method relies on random-walk based approaches for learning 
