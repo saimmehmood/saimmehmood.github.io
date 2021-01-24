@@ -26,12 +26,13 @@
   # quote: >
   #  Solving 21st century problems by diging holes and making game changing products like the *not a flamethrower*
   description: | # this will include new lines to allow paragraphs
-    I have been TAing multiple courses at the Electrical Engineering and Computer Science department with Prof Jackie Wang (EECS 1022 and 3311).
+    This term ()
+    I have been TAing multiple courses at the Electrical Engineering and Computer Science (EECS) department.
 
     Courses:
-    Programming for Mobile Computing [EECS 1022](https://bit.ly/2JRlrjd) - Introduction to Database Systems (EECS 3412) - Software Design [EECS 3311](https://bit.ly/2AXJxpL)
+    Programming for Mobile Computing [EECS 1022](https://bit.ly/2JRlrjd) - Introduction to Database Systems EECS 3412 - Object Oriented Programming from Sensors to Actuators - EECS 1021
     
-    Tasks include: directing tutorials, exam invigilation, final and midterm exam review sessions, grading assignment/exams, office hour duties. **OOP, Java, Android Studio**
+    Tasks include: directing tutorials, exam invigilation, final and midterm exam review sessions, grading assignment/exams, office hour duties. **OOP, Java, Android Studio, IntelliJ**
   
     
 - layout: left
