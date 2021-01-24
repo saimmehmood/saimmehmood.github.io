@@ -1,7 +1,7 @@
 - layout: left
   company: Data Mining Lab, Lassonde School of Engineering, York University
   link: http://dminer.eecs.yorku.ca/
-  job_title: Graduate Researcher
+  job_title: Graduate Research Assistant
   dates: January 2018 - April 2020
   # quote: >
   #  Solving 21st century problems by diging holes and making game changing products like the *not a flamethrower*
@@ -14,6 +14,9 @@
 
     These latent semantic relationships can improve our understanding of how space is perceived by individuals (through their trajectories) 
     and inform better decisions of urban planning etc.
+
+    We published the research titled [**Learning Semantic Relationships of Geographical Areas based on Trajectories**](https://ieeexplore.ieee.org/document/9162305)
+    at the IEEE MDM 2020 Conference. 
 
 - layout: left
   company: EECS, Lassonde School of Engineering, York University
