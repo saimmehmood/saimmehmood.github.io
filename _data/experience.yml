@@ -6,7 +6,7 @@
   # quote: >
   #  Solving 21st century problems by diging holes and making game changing products like the *not a flamethrower*
   description: | # this will include new lines to allow paragraphs
-    The research was related to trajectory data mining and location-based services. 
+    The research was related to trajectory data mining, machine learning, and statistical inference. 
     
     We developed a method that utilizes trajectories to learn low-dimensional representations of geographical areas
     that the trajectories span in an embedded space. The method relies on random-walk based approaches for learning 
@@ -29,7 +29,7 @@
     I have been TAing multiple courses at the Electrical Engineering and Computer Science (EECS) department.
 
     Courses:
-    Programming for Mobile Computing [EECS 1022](https://bit.ly/2JRlrjd) - Introduction to Database Systems EECS 3412 - Object Oriented Programming from Sensors to Actuators - EECS 1021
+    Programming for Mobile Computing EECS 1022 - Introduction to Database Systems EECS 3412 - Object Oriented Programming from Sensors to Actuators - EECS 1021
     
     Tasks include: directing tutorials, exam invigilation, final and midterm exam review sessions, grading assignment/exams, office hour duties. **OOP, Java, Android Studio, IntelliJ**
   
