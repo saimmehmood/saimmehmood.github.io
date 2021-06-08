@@ -1,4 +1,28 @@
 - layout: left
+  company: aggregate intellect
+  link: https://ai.science/
+  job_title: Research Fellow
+  dates: June 2021 to date
+  # quote: >
+  #  Solving 21st century problems by diging holes and making game changing products like the *not a flamethrower*
+  description: | # this will include new lines to allow paragraphs
+    Out-sourcing permium NLP packages
+
+- layout: left
+  company: SharpestMinds
+  link: https://www.sharpestminds.com/
+  job_title: Data Science Fellow
+  dates: June 2019 to date
+  # quote: >
+  #  Solving 21st century problems by diging holes and making game changing products like the *not a flamethrower*
+  description: | # this will include new lines to allow paragraphs
+    COVID-19 - Risk of Geographical Areas being infected | https://bit.ly/33wUo7X | Python, PostgreSQL - PostGIS
+  
+    Using my existing research in trajectory data mining, developed a method to identify areas that are at a high risk of being infected by COVID-19 in the NYC Manhattan region.
+  
+    Calculating Zakat using Python | https://tinyurl.com/y26fepc4 | Python, PyPDF2
+
+- layout: left
   company: Data Mining Lab, Lassonde School of Engineering, York University
   link: http://dminer.eecs.yorku.ca/
   job_title: Graduate Research Assistant
