@@ -16,11 +16,11 @@
   # quote: >
   #  Solving 21st century problems by diging holes and making game changing products like the *not a flamethrower*
   description: | # this will include new lines to allow paragraphs
-    COVID-19 - Risk of Geographical Areas being infected | https://bit.ly/33wUo7X | Python, PostgreSQL - PostGIS
+    COVID-19 - Risk of Geographical Areas being infected - https://bit.ly/33wUo7X - Python, PostgreSQL - PostGIS
   
     Using my existing research in trajectory data mining, developed a method to identify areas that are at a high risk of being infected by COVID-19 in the NYC Manhattan region.
   
-    Calculating Zakat using Python | https://tinyurl.com/y26fepc4 | Python, PyPDF2
+    Calculating Zakat using Python - https://tinyurl.com/y26fepc4 - Python, PyPDF2
 
 - layout: left
   company: Data Mining Lab, Lassonde School of Engineering, York University
