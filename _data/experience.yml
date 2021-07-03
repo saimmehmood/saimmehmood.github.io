@@ -20,9 +20,11 @@
   description: | # this will include new lines to allow paragraphs
     COVID-19 - Risk of Geographical Areas being infected - https://bit.ly/33wUo7X - Python, PostgreSQL - PostGIS
   
-    Using my existing research in trajectory data mining, developed a method to identify areas that are at a high risk of being infected by COVID-19 in the NYC Manhattan region.
+    •	Using my existing research in trajectory data mining, developed a method to identify areas that are at a high risk of being infected by COVID-19 in the NYC Manhattan region.
   
     Calculating Zakat using Python - https://tinyurl.com/y26fepc4 - Python, PyPDF2
+
+    •	Utilized PyPDF2 to parse bank statements and generate the analysis and calculation.
 
 - layout: left
   company: Data Mining Lab, Lassonde School of Engineering, York University
