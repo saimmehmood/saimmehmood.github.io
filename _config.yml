@@ -61,6 +61,9 @@ about_content: | # this will include new lines to allow paragraphs
 # Certificate Section
 # certificate_title: Certifications
 
+# Volunteer Section
+# volunteer_title: Volunteer
+
 # More Section
 # more_title: Honors and Awards
 more_content: | # this will include new lines to allow paragraphs

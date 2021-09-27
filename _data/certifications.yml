@@ -1,5 +1,11 @@
 # certification template
 - layout: left
+  name: Data Engineering Foundations
+  dates: Jul 2021 
+  icon: award # (optional)
+  link: https://www.linkedin.com/learning/data-engineering-foundations/what-is-data-engineering
+
+- layout: left
   name: Building and Deploying Deep Learning Applications with TensorFlow 
   dates: May 2020 
   icon: award # (optional)
