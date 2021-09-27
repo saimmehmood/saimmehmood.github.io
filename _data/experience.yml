@@ -8,9 +8,9 @@
   description: | # this will include new lines to allow paragraphs
     •	The research was related to trajectory data mining, machine learning, and statistical inference.
 
-    •	We developed a method that utilizes trajectories of [cars, pedestrians, etc.] as a way to infer semantic similarities between geographical areas.
+    •	Developed a method that utilizes trajectories of [cars, pedestrians, etc.] as a way to infer semantic similarities between geographical areas.
 
-    •	We published the research titled [**Learning Semantic Relationships of Geographical Areas based on Trajectories**](https://ieeexplore.ieee.org/document/9162305)
+    •	Published the research titled [**Learning Semantic Relationships of Geographical Areas based on Trajectories**](https://ieeexplore.ieee.org/document/9162305)
     at the IEEE Mobile Data Management Conference 2020 Versailles, France, and received Best Paper Award.
 
 - layout: left
