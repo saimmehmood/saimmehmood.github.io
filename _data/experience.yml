@@ -38,4 +38,4 @@
   description: | # this will include new lines to allow paragraphs
     •	Designed a framework inside SNIC using **Apache Spark, SparkR & Jupyter Notebook** to simplify computations of highly parallel scientific applications. 
     
-    •	Our project enabled researchers to seamlessly deploy their applications on the spark server and scale it to multiple worker nodes as needed. 
+    •	Our project titled [**Towards Moving Scientific Applications in the Cloud**](https://github.com/saimmehmood/Towards-Moving-Scientific-Applications-in-the-Cloud) enabled researchers to seamlessly deploy their applications on the spark server and scale it to multiple worker nodes as needed. 
