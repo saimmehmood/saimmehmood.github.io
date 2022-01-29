@@ -7,7 +7,7 @@ darkmode: false
 # Personal info
 name: Saim Mehmood
 title: MSc in Computer Science | Data Science | Machine Learning
-email: saim.mehmood.gul(at)gmail.com
+email: saim(dot)mehmood(dot)gul(at)gmail.com
 phone: +1 (469) 643-3148
 #website: saimmemhmood.com
 
@@ -41,9 +41,9 @@ about_content: | # this will include new lines to allow paragraphs
     
     During my graduate studies at York University, I was working under the supervision of [Prof. Manos Papagelis](https://www.eecs.yorku.ca/~papaggel/).
 
-    **Interests:** data mining, graph mining, trajectory data mining, machine learning, big data analytics, data science
+    **Interests:** data mining, machine learning, data science, natural language processing (NLP), cloud computing
 
-    **Tools:** <mark>Python (pandas, numpy, scikit-learn, networkx, seaborn, matplotlib, nltk), Deep Learning (node2vec, word2vec, graph embeddings), PostgreSQL/PostGIS, Google Cloud Platform (Places & Directions APIs), Java, C#, TensorFlow, Spark, Colab, LaTeX, MATLAB </mark>
+    **Tools:** <mark>Python (pandas, numpy, scikit-learn, networkx, seaborn, matplotlib), Deep Learning (node2vec, word2vec, graph embeddings), NLP (spacy, transformers), PostgreSQL/PostGIS, MATLAB, Google Cloud Platform (Places & Directions APIs), Java, C#, Tensorflow, Spark, Colab, LaTeX, C++ </mark>
 
     [• Medium Profile](https://saim-mehmood-gul.medium.com/)
 
