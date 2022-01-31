@@ -30,7 +30,7 @@ linkedin_username: saimmehmoodgul
 about_profile_image: images/circle-cropped.png
 about_content: | # this will include new lines to allow paragraphs
     A recent graduate of MSc in computer science with 2 plus years of applied research experience working at the 
-    [Data Mining Lab](http://dminer.eecs.yorku.ca/) @ Lassonde School of Engineering, York University Toronto. 
+    [Data Mining Lab](https://dminer.eecs.yorku.ca/) @ Lassonde School of Engineering, York University Toronto. 
     I did my bachelor's in software engineering from University of the Punjab, Lahore.
     
     I have experience working with Geo-Spatial Data sets for which I used PostgreSQL & PostGIS and Python to extract insights.
@@ -69,6 +69,7 @@ about_content: | # this will include new lines to allow paragraphs
 more_content: | # this will include new lines to allow paragraphs
   Alongside my interests in data mining and software engineering I earned some awards:
    - Awarded York University Graduate Fellowship for the entire duration of M.Sc. Computer Science, January 2018
+   - Electrical Engineering and Computer Science Graduate Student Association (EECS-GSA) York University, Vice-President Organization | Sep 2018 - 2019
    - Represented Pakistani youth in China, Pakistan Youth Delegation, August 2016
    - Won Erasmus Mundus Exchange Scholarship to spend an exchange semester at Uppsala University, May 2015 
    - Winner 17th In-House Speed Programming Competition, University of the Punjab, May 2015
