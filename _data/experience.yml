@@ -1,8 +1,22 @@
 - layout: left
+  company: EECS, Lassonde School of Engineering, York University
+  # link: http://dminer.eecs.yorku.ca/
+  job_title: Graduate Teaching Assistant
+  dates: January 2018 - Apr 2022
+  # quote: >
+  #  Solving 21st century problems by diging holes and making game changing products like the *not a flamethrower*
+  description: | # this will include new lines to allow paragraphs
+    I have been a TA for multiple courses at the Electrical Engineering and Computer Science (EECS) department.
+
+    •	Courses: Programming for Mobile Computing EECS 1022 - Introduction to Database Systems EECS 3412 - Object Oriented Programming from Sensors to Actuators - EECS 1021 - Software Design - EECS 3311
+
+    Tasks include: directing tutorials, exam invigilation, final and midterm exam review sessions, grading assignments/exams, office hour duties. **OOP, Java, Android Studio, IntelliJ**
+
+- layout: left
   company: Data Mining Lab, Lassonde School of Engineering, York University
   link: http://dminer.eecs.yorku.ca/
   job_title: Graduate Research Assistant
-  dates: January 2018 - April 2020
+  dates: Jan 2018 - Apr 2020
   # quote: >
   #  Solving 21st century problems by diging holes and making game changing products like the *not a flamethrower*
   description: | # this will include new lines to allow paragraphs
@@ -12,21 +26,6 @@
 
     •	Published the research titled [**Learning Semantic Relationships of Geographical Areas based on Trajectories**](https://ieeexplore.ieee.org/document/9162305)
     at the IEEE Mobile Data Management Conference 2020 Versailles, France, and received Best Paper Award.
-
-- layout: left
-  company: EECS, Lassonde School of Engineering, York University
-  # link: http://dminer.eecs.yorku.ca/
-  job_title: Graduate Teaching Assistant
-  dates: January 2018 - to Present
-  # quote: >
-  #  Solving 21st century problems by diging holes and making game changing products like the *not a flamethrower*
-  description: | # this will include new lines to allow paragraphs
-    I have been a TA for multiple courses at the Electrical Engineering and Computer Science (EECS) department.
-
-    •	Courses: Programming for Mobile Computing EECS 1022 - Introduction to Database Systems EECS 3412 - Object Oriented Programming from Sensors to Actuators - EECS 1021 - Software Design - EECS 3311
-
-    Tasks include: directing tutorials, exam invigilation, final and midterm exam review sessions, grading assignments/exams, office hour duties. **OOP, Java, Android Studio, IntelliJ**
-  
     
 - layout: left
   company: Swedish National Infrastructure for Computing, Uppsala University
