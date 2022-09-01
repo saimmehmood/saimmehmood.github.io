@@ -1,4 +1,14 @@
 - layout: left
+  company: SharpestMinds
+  link: https://www.sharpestminds.com/
+  job_title: Data Science Mentor
+  dates: Jul 2022 - to Present
+  # quote: >
+  #  Solving 21st century problems by diging holes and making game changing products like the *not a flamethrower*
+  description: | # this will include new lines to allow paragraphs
+    SharpestMinds Mentor Profile: https://app.sharpestminds.com/mentor-bio/saim-mehmood
+
+- layout: left
   company: Aggregate Intellect
   link: https://ai.science/
   job_title: Research Fellow
@@ -14,7 +24,7 @@
   company: SharpestMinds
   link: https://www.sharpestminds.com/
   job_title: Data Science Fellow
-  dates: June 2020 - to Present
+  dates: June 2020 - April 2022
   # quote: >
   #  Solving 21st century problems by diging holes and making game changing products like the *not a flamethrower*
   description: | # this will include new lines to allow paragraphs
