@@ -2,19 +2,21 @@
   company: Badal.io
   # link: http://dminer.eecs.yorku.ca/
   job_title: MLOps Engineer
-  dates: Apr 2022 - to Present
+  dates: Apr 2022 - Jan 2023
   
   description: | # this will include new lines to allow paragraphs
   
-    • Working towards GCP Professional Machine Learning Engineer certification and internal projects.
+    •  Google Cloud Professional Machine Learning Engineer Certified
     
-    GCP courses: https://partner.cloudskillsboost.google/public_profiles/e393b58c-2ff2-4a2f-9a0f-108b274ce3ce
+    Certificate URL: https://www.credential.net/42cc4d30-75be-410c-8486-a94afbe73eff
+
+    • Worked on projects revolving around utilizing GCP ML stack (Vertex AI, BigQuery ML etc.)
 
 - layout: left
   company: EECS, Lassonde School of Engineering, York University
   # link: http://dminer.eecs.yorku.ca/
   job_title: Graduate Teaching Assistant
-  dates: Jan 2018 - Apr 2022
+  dates: Jan 2018 - Dec 2022
   # quote: >
   #  Solving 21st century problems by diging holes and making game changing products like the *not a flamethrower*
   description: | # this will include new lines to allow paragraphs
