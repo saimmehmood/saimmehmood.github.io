@@ -29,7 +29,7 @@ linkedin_username: saimmehmoodgul
 # about_title: About Me
 about_profile_image: images/circle-cropped.png
 about_content: | # this will include new lines to allow paragraphs
-    My background is in data mining and machine learning with applied research experience working at the Data Mining Lab, York University.
+    My background is in data mining and machine learning with applied research experience working at the [Data Mining Lab])(https://dminer.eecs.yorku.ca/), York University.
     My most recent experience was working as an MLOps Engineer at a Google Cloud Platform (GCP) consulting company where I leveraged GCP ML stack to deliver end-to-end machine learning models. 
     I'm certified as a GCP Professional Machine Learning Engineer.
     
