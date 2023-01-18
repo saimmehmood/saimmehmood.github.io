@@ -6,11 +6,12 @@
   
   description: | # this will include new lines to allow paragraphs
   
-    •  Google Cloud Professional Machine Learning Engineer Certified
-    
-    Certificate URL: https://www.credential.net/42cc4d30-75be-410c-8486-a94afbe73eff
+    •	Worked on building end-to-end ML models (training, deployment & evaluation) using AutoML and custom model training by leveraging Vertex AI, BigQuery and Dataflow for a client in financial space. Improving their ability to train ML models more efficiently using GCP.
 
-    • Worked on building end-to-end ML models (training, deployment & evaluation) using Vertex AI.
+    •	Developed proof-of-concepts (POC’s) for real-estate client to detect bias in appraisal documents, leveraging Document AI and Cohere API’s.
+    
+    •	Obtained my certification for Google Cloud **Professional Machine Learning Engineer** Certificate URL: https://bit.ly/3WhLBzg
+
 
 - layout: left
   company: EECS, Lassonde School of Engineering, York University

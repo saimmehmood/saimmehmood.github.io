@@ -29,11 +29,9 @@ linkedin_username: saimmehmoodgul
 # about_title: About Me
 about_profile_image: images/circle-cropped.png
 about_content: | # this will include new lines to allow paragraphs
-    I was working as MLOps Engineer at Badal.io.
-
-    I did my MSc in computer science while doing applied research at the 
-    [Data Mining Lab](https://dminer.eecs.yorku.ca/) @ Lassonde School of Engineering, York University Toronto. 
-    I did my bachelor's in software engineering from University of the Punjab, Lahore.
+    My background is in data mining and machine learning with applied research experience working at the Data Mining Lab, York University.
+    My most recent experience was working as an MLOps Engineer at a Google Cloud Platform (GCP) consulting company where I leveraged GCP ML stack to deliver end-to-end machine learning models. 
+    I'm certified as a GCP Professional Machine Learning Engineer.
     
     I have experience working with Geo-Spatial Data sets for which I used PostgreSQL & PostGIS and Python to extract insights.
     I typically visualize data sets along the way to understand the pipelines and models I'm creating.
