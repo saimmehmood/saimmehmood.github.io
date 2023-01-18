@@ -6,7 +6,10 @@
   # quote: >
   #  Solving 21st century problems by diging holes and making game changing products like the *not a flamethrower*
   description: | # this will include new lines to allow paragraphs
-    SharpestMinds Mentor Profile: https://app.sharpestminds.com/mentor-bio/saim-mehmood
+    •	Helping recent graduates and folks from different backgrounds to transition into Data Science.
+
+    •	Mentor Profile: https://app.sharpestminds.com/mentor-bio/saim-mehmood
+
 
 - layout: left
   company: Aggregate Intellect
@@ -16,9 +19,7 @@
   # quote: >
   #  Solving 21st century problems by diging holes and making game changing products like the *not a flamethrower*
   description: | # this will include new lines to allow paragraphs
-    Open-sourcing permium NLP packages
-
-    [• Github code](https://github.com/Aggregate-Intellect/original-handson-packages)
+    •	Open sourcing NLP (natural language processing) packages to increase the visibility of aggregate intellect in tech community | https://tinyurl.com/hz7bhrch
 
 - layout: left
   company: SharpestMinds
