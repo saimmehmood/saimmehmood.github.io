@@ -45,11 +45,18 @@ about_content: | # this will include new lines to allow paragraphs
 
     **Technical Knowledge and Skills:** 
     
-    • Data Mining & Visualization  -  Python (matplotlib, seaborn, pandas, numpy), Power BI
+    • Data Mining & Visualization - Python (matplotlib, seaborn, pandas, numpy), Power BI
 
-    • Programming Languages  -  Python, Java, C#, C/C++   
-    Python (pandas, numpy, scikit-learn, networkx, seaborn, matplotlib), Deep Learning (node2vec, word2vec, graph embeddings), NLP (spacy, transformers), PostgreSQL/PostGIS, MATLAB, Google Cloud Platform (Places & Directions APIs), Java, C#, Tensorflow, Spark, Colab, LaTeX, C++
+    • Programming Languages - Python, Java, C#, C/C++
+   
+    • Databases - PostgreSQL/PostGIS, MongoDB, MySQL
 
+    • Google Cloud Platform (GCP) - Vertex AI, BigQuery, Dataflow
+
+    • NLP & Machine Learning - spaCY, NLTK, Tensorflow/PyTorch/Keras
+
+    • Operating Systems - Linux/Mac, Windows
+    
     [• Medium Profile](https://saim-mehmood-gul.medium.com/)
 
     [• Stackoverflow Profile](https://stackoverflow.com/users/4044015/saim-mehmood)
