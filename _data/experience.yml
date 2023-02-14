@@ -6,9 +6,9 @@
   
   description: | # this will include new lines to allow paragraphs
   
-    •	Worked on building end-to-end ML models (training, deployment & evaluation) using AutoML and custom model training by leveraging Vertex AI, BigQuery and Dataflow for a client in financial space. Improving their ability to train ML models more efficiently using GCP.
+    • Worked on building end-to-end ML models (training, deployment & evaluation) using AutoML and custom model training by leveraging Vertex AI, BigQuery and Dataflow for a client in financial space. Improving their ability to train ML models more efficiently using GCP.
 
-    •	Developed proof-of-concepts (POC’s) for real-estate client to detect bias in appraisal documents, leveraging Document AI and Cohere API’s.
+    • Developed proof-of-concepts (POC’s) for real-estate client to detect bias in appraisal documents, leveraging Document AI and Cohere API’s.
     
     • Obtained my certification for Google Cloud **Professional Machine Learning Engineer**. 
     
