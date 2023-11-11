@@ -1,4 +1,19 @@
 - layout: left
+  company: N. Harris Computer
+  # link: http://dminer.eecs.yorku.ca/
+  job_title: Technical Consultant 
+  dates: Apr 2023 - to Date
+  
+  description: | # this will include new lines to allow paragraphs
+  
+    • Developing an understanding of utilities industry (water, gas & electricity) by digging into advanced metering infrastructure (AMI) and meter data management (MDM) systems.
+
+    • Learning in-depth about the SmartWorks MDM tool and its modules geared towards water and electricity data analysis i.e., water loss analysis, leak detection and transformer analysis etc.
+
+    • Working with various clients towards understanding their requirements and implementing customized solutions based on them.
+
+
+- layout: left
   company: Badal.io
   # link: http://dminer.eecs.yorku.ca/
   job_title: MLOps Engineer - GCP Consulting
