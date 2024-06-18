@@ -6,11 +6,11 @@
   
   description: | # this will include new lines to allow paragraphs
   
-    • Developing an understanding of utilities industry (water, gas & electricity) by digging into advanced metering infrastructure (AMI) and meter data management (MDM) systems.
+    • Developed an understanding of utilities industry (water, gas & electricity) by digging into advanced metering infrastructure (AMI) and meter data management (MDM) systems.
 
-    • Learning in-depth about the SmartWorks MDM tool and its modules geared towards water and electricity data analysis i.e., water loss analysis, leak detection and transformer analysis etc.
+    •	Gained expertise in SmartWorks MDM tool, focusing on water and electricity data analysis such as water loss analysis, leak detection and transformer analysis etc.
 
-    • Working with various clients towards understanding their requirements and implementing customized solutions based on them.
+    •	Collaborated with clients to understand their requirements and implementing customized solutions based on their needs.
 
 
 - layout: left
@@ -21,11 +21,11 @@
   
   description: | # this will include new lines to allow paragraphs
   
-    • Worked on building end-to-end ML models (training, deployment & evaluation) using AutoML and custom model training by leveraging Vertex AI, BigQuery, Docker and Dataflow for a client in financial space. Improving their ability to train ML models more efficiently using GCP.
+    •	Built end-to-end machine learning models (training, deployment & evaluation) using AutoML and custom model training by leveraging Vertex AI, BigQuery, Docker and Dataflow for a client in financial space. Improving their ability to train ML models more efficiently using GCP.
 
-    • Developed proof-of-concepts (POC’s) for real-estate client to detect bias in appraisal documents, leveraging Document AI and Cohere API’s.
+    • Developed proof-of-concepts to detect bias in appraisal documents, leveraging Document AI and Cohere API.
     
-    • Obtained my certification for Google Cloud **Professional Machine Learning Engineer**. 
+    • Certified Google Cloud **Professional Machine Learning Engineer**. 
     
     Certificate URL: https://bit.ly/3WhLBzg
 
