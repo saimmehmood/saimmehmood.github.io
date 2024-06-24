@@ -1,7 +1,7 @@
 - layout: left
   company: N. Harris Computer Corporation
   # link: http://dminer.eecs.yorku.ca/
-  job_title: Technical Consultant 
+  job_title: Software Engineer/Technical Consultant 
   dates: Apr 2023 - to Date
   
   description: | # this will include new lines to allow paragraphs
@@ -16,7 +16,7 @@
 - layout: left
   company: Badal.io
   # link: http://dminer.eecs.yorku.ca/
-  job_title: MLOps Engineer - GCP Consulting
+  job_title: MLOps Engineer
   dates: Apr 2022 - Jan 2023
   
   description: | # this will include new lines to allow paragraphs
