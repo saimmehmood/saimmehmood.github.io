@@ -6,11 +6,15 @@
   
   description: | # this will include new lines to allow paragraphs
   
-    • Developed an understanding of utilities industry (water, gas & electricity) by digging into advanced metering infrastructure (AMI) and meter data management (MDM) systems.
-
-    •	Gained expertise in SmartWorks MDM tool, focusing on water and electricity data analysis such as water loss analysis, leak detection and transformer analysis etc.
-
-    •	Collaborated with clients to understand their requirements and implementing customized solutions based on their needs.
+    •	Working on Data Pipelines to extract, transform and load (ETL) data from customer information systems (CIS) into meter data management (MDM) software 
+    
+    •	Managing the processing, transformation and extraction of meter data coming from advanced metering infrastructure (AMI) systems 
+    
+    •	Implementing modules such as line loss analysis, leak detection and transformer load analysis 
+    
+    •	Collaborating with clients to understand their requirements and implementing customized solutions based on their needs 
+    
+    •	Contributed towards the implementation of in-house large language model (LLM) based module
 
 
 - layout: left
@@ -21,11 +25,11 @@
   
   description: | # this will include new lines to allow paragraphs
   
-    •	Built end-to-end machine learning models (training, deployment & evaluation) using AutoML and custom model training by leveraging Vertex AI, BigQuery, Docker and Dataflow for a client in financial space. Improving their ability to train ML models more efficiently using GCP.
+    •	Built end-to-end machine learning models (training, deployment & evaluation) using AutoML and custom model training by leveraging Vertex AI, BigQuery, Docker and Dataflow for a client in financial space. Improving their ability to train ML models more efficiently using GCP
 
-    • Developed proof-of-concepts to detect bias in appraisal documents, leveraging Document AI and Cohere API.
+    • Developed proof-of-concepts to detect bias in appraisal documents, leveraging Document AI and Cohere API
     
-    • Certified Google Cloud **Professional Machine Learning Engineer**. 
+    • Certified Google Cloud **Professional Machine Learning Engineer**
     
     Certificate URL: https://bit.ly/3WhLBzg
 
@@ -38,7 +42,7 @@
   # quote: >
   #  Solving 21st century problems by diging holes and making game changing products like the *not a flamethrower*
   description: | # this will include new lines to allow paragraphs
-    Taught multiple courses at the Electrical Engineering and Computer Science (EECS) department.
+    Taught multiple courses at the Electrical Engineering and Computer Science (EECS) department
 
     •	Courses: Programming for Mobile Computing EECS 1022 - Introduction to Database Systems EECS 3412 - Object Oriented Programming from Sensors to Actuators - EECS 1021 - Software Design - EECS 3311
 
@@ -52,9 +56,9 @@
   # quote: >
   #  Solving 21st century problems by diging holes and making game changing products like the *not a flamethrower*
   description: | # this will include new lines to allow paragraphs
-    •	The research was related to trajectory data mining, machine learning, and statistical inference.
+    •	The research was related to trajectory data mining, machine learning, and statistical inference
 
-    •	Developed a method that utilizes trajectories of [cars, pedestrians, etc.] as a way to infer semantic similarities between geographical areas.
+    •	Developed a method that utilizes trajectories of [cars, pedestrians, etc.] as a way to infer semantic similarities between geographical areas
 
     •	Published the research titled [**Learning Semantic Relationships of Geographical Areas based on Trajectories**](https://ieeexplore.ieee.org/document/9162305)
     at the IEEE Mobile Data Management Conference 2020 Versailles, France, and received Best Paper Award.
