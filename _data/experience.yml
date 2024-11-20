@@ -61,7 +61,7 @@
     •	Developed a method that utilizes trajectories of [cars, pedestrians, etc.] as a way to infer semantic similarities between geographical areas
 
     •	Published the research titled [**Learning Semantic Relationships of Geographical Areas based on Trajectories**](https://ieeexplore.ieee.org/document/9162305)
-    at the IEEE Mobile Data Management Conference 2020 Versailles, France, and received Best Paper Award.
+    at the IEEE Mobile Data Management Conference 2020 Versailles, France, and received Best Paper Award
     
 - layout: left
   company: Swedish National Infrastructure for Computing, Uppsala University
@@ -71,6 +71,6 @@
   # quote: >
   #  Solving 21st century problems by diging holes and making game changing products like the *not a flamethrower*
   description: | # this will include new lines to allow paragraphs
-    •	Designed a framework inside SNIC using **Apache Spark, SparkR & Jupyter Notebook** to simplify computations of highly parallel scientific applications. 
+    •	Designed a framework inside SNIC using **Apache Spark, SparkR & Jupyter Notebook** to simplify computations of highly parallel scientific applications
     
-    •	Our project titled [**Towards Moving Scientific Applications in the Cloud**](https://github.com/saimmehmood/Towards-Moving-Scientific-Applications-in-the-Cloud) enabled researchers to seamlessly deploy their applications on the spark server and scale it to multiple worker nodes as needed. 
+    •	Our project titled [**Towards Moving Scientific Applications in the Cloud**](https://github.com/saimmehmood/Towards-Moving-Scientific-Applications-in-the-Cloud) enabled researchers to seamlessly deploy their applications on the spark server and scale it to multiple worker nodes as needed
