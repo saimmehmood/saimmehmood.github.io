@@ -29,9 +29,10 @@ linkedin_username: saimmehmoodgul
 # about_title: About Me
 about_profile_image: images/circle-cropped.png
 about_content: | # this will include new lines to allow paragraphs
+    I'm currently working as a Software Engineer/Technical Consultant at SmartWorks - a division of N. Harris Computer Corporation.
     My background is in data mining and machine learning with applied research experience working at the [Data Mining Lab](https://dminer.eecs.yorku.ca/), York University.
-    My most recent experience was working as an MLOps Engineer at a Google Cloud Platform (GCP) consulting company where I leveraged GCP ML stack to deliver end-to-end machine learning models. 
-    I'm certified as a GCP Professional Machine Learning Engineer.
+    Previously, I've worked as an MLOps Engineer at a Google Cloud Platform (GCP) consulting company where I leveraged GCP ML stack to deliver end-to-end machine learning models. 
+    I also did certification in GCP as a Professional Machine Learning Engineer.
     
     I have experience working with Geo-Spatial Data sets for which I used PostgreSQL & PostGIS and Python to extract insights.
     I typically visualize data sets along the way to understand the pipelines and models I'm creating.
