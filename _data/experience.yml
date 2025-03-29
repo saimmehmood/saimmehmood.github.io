@@ -1,12 +1,12 @@
 - layout: left
   company: N. Harris Computer Corporation
   # link: http://dminer.eecs.yorku.ca/
-  job_title: Software Engineer/Technical Consultant 
-  dates: Apr 2023 - March 2025
+  job_title: Technical Consultant/Software Engineer 
+  dates: Apr 2023 - Mar 2025
   
   description: | # this will include new lines to allow paragraphs
   
-    •	Working on Data Pipelines to extract, transform and load (ETL) data from customer information systems (CIS) into meter data management (MDM) software 
+    •	Worked on Data Pipelines to extract, transform and load (ETL) data from customer information systems (CIS) into meter data management (MDM) software 
     
     •	Managing the processing, transformation and extraction of meter data coming from advanced metering infrastructure (AMI) systems 
     
