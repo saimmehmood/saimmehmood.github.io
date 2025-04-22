@@ -27,11 +27,9 @@
   
     •	Built end-to-end machine learning models (training, deployment & evaluation) using AutoML and custom model training by leveraging Vertex AI, BigQuery, Docker and Dataflow for a client in financial space. Improving their ability to train ML models more efficiently using GCP
 
-    • Developed proof-of-concepts to detect bias in appraisal documents, leveraging Document AI and Cohere API
+    • Developed and deployed semantic models to detect bias in appraisal documents, leveraging Document AI and Cohere API
     
-    • Certified Google Cloud **Professional Machine Learning Engineer**
-    
-    Certificate URL: https://bit.ly/3WhLBzg
+    • Certified Google Cloud **Professional Machine Learning Engineer** URL: https://bit.ly/3WhLBzg
 
 
 - layout: left
