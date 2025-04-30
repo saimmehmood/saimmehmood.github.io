@@ -21,21 +21,6 @@
   description: | # this will include new lines to allow paragraphs
     • Open sourcing NLP (natural language processing) packages to increase the visibility of aggregate intellect in tech community - https://tinyurl.com/hz7bhrch
 
-- layout: left
-  company: SharpestMinds
-  link: https://www.sharpestminds.com/
-  job_title: Data Science Fellow
-  dates: Jun 2020 - Apr 2022
-  # quote: >
-  #  Solving 21st century problems by diging holes and making game changing products like the *not a flamethrower*
-  description: | # this will include new lines to allow paragraphs
-    [COVID-19 - Risk of Geographical Areas being infected](https://bit.ly/33wUo7X) - Python, PostgreSQL - PostGIS
-  
-    •	Using my existing research in trajectory data mining, developed a method to identify areas that are at a high risk of being infected by COVID-19 in the NYC Manhattan region.
-  
-    [Calculating Zakat using Python](https://tinyurl.com/y26fepc4) - Python, PyPDF2
-
-    •	Utilized PyPDF2 to parse bank statements and generate the analysis and calculation.
 
 - layout: left
   company: IBM
