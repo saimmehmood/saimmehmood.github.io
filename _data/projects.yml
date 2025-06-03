@@ -1,7 +1,7 @@
 - layout: top-middle
   name: Learning Semantic Relationships of Geographical Areas based on Trajectories
   link: https://github.com/saimmehmood/semantic_relationships
-  github: sproogen/resume-theme
+  github:
   quote: >
         Python (networkx, pandas, numpy, seaborn, matplotlib), PostgreSQL, PostGIS, MATLAB, Google Cloud (Places & Directions) API
   description: | # this will include new lines to allow paragraphs
@@ -11,7 +11,7 @@
 - layout: top-middle
   name: Expert Developer Recommendation Using Very Large Datasets 
   link: https://github.com/saimmehmood/ExpertDeveloperRecommendation
-  github: sproogen/resume-theme
+  github:
   quote: >
         SQL, Google BigQuery, Elasticsearch
   description: | # this will include new lines to allow paragraphs
@@ -21,7 +21,7 @@
 - layout: top-middle
   name: Towards Moving Scientific Applications in the Cloud 
   link: https://github.com/saimmehmood/Towards-Moving-Scientific-Applications-in-the-Cloud
-  github: sproogen/resume-theme
+  github:
   quote: >
         Cloud Computing, OpenStack, Apache Spark, Jupyter Notebook
   description: | # this will include new lines to allow paragraphs
@@ -31,8 +31,8 @@
 
 - layout: top-middle
   name: COVID-19 - Risk of Geographical Areas being infected
-  link: https://towardsdatascience.com/covid-19-risk-of-geographical-areas-being-infected-a81938a5e286
-  github: sproogen/resume-theme
+  link: https://medium.com/data-science/covid-19-risk-of-geographical-areas-being-infected-a81938a5e286
+  github:
   quote: >
         PostgreSQL, PostGIS, Python (numpy, pandas)
   description: | # this will include new lines to allow paragraphs
