@@ -1,8 +1,18 @@
 - layout: left
+  company: Self-Employed
+  
+  job_title: Freelance AI Consultant
+  dates: June 2025 - to Date
+  
+  description: | # this will include new lines to allow paragraphs
+  
+    • Working with businesses to develop AI Agents and LLM based solutions to automate their workflows
+
+- layout: left
   company: Career Break
-  # link: http://dminer.eecs.yorku.ca/
+  
   job_title: Personal Projects 
-  dates: Mar 2025 - to Date
+  dates: Mar 2025 - to June 2025
   
   description: | # this will include new lines to allow paragraphs
   
