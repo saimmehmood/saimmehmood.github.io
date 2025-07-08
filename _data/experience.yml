@@ -1,18 +1,8 @@
 - layout: left
-  company: Self-Employed
-  
-  job_title: Freelance AI Consultant
-  dates: June 2025 - to Date
-  
-  description: | # this will include new lines to allow paragraphs
-  
-    • Working with a local startup to develop an AI Agentic solution to automate their workflows
-
-- layout: left
   company: Career Break
   
   job_title: Personal Projects 
-  dates: Mar 2025 - to June 2025
+  dates: Mar 2025 - to date
   
   description: | # this will include new lines to allow paragraphs
   
