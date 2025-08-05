@@ -6,6 +6,8 @@
   
   description: | # this will include new lines to allow paragraphs
   
+    • Taking **AI Agents** Course by Hugging Face and exploring the capabilities of LLMs
+    
     • Developing an understanding of running Large Language Models locally via Ollama
 
     • Understanding Optimization techniques in AI Models such as RAG (Retrieval Augmented Generation), Fine Tuning and Prompt Engineering
@@ -18,7 +20,7 @@
 - layout: left
   company: N. Harris Computer Corporation
   # link: http://dminer.eecs.yorku.ca/
-  job_title: Technical Consultant/Software Engineer 
+  job_title: Technical Consultant/Data Engineer 
   dates: Apr 2023 - Mar 2025
   
   description: | # this will include new lines to allow paragraphs
