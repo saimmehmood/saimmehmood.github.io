@@ -7,4 +7,12 @@ services:
       - 4000:4000
       - 35729:35729
     volumes:
-      - ./:/srv/jekyll
+      - .:/srv/jekyll:delegated
+      - /srv/jekyll/_site
+      - /srv/jekyll/.sass-cache
+    environment:
+      - JEKYLL_ENV=development
+      - LC_ALL=C.UTF-8
+      - LANG=C.UTF-8
+    stdin_open: true
+    tty: true

@@ -11,4 +11,4 @@ RUN bundle install
 
 EXPOSE 4000
 
-CMD ["bundle", "exec", "jekyll", "serve", "--watch", "--force_polling", "--verbose", "--host", "0.0.0.0"] 
+CMD ["bundle", "exec", "jekyll", "serve", "--watch", "--force_polling", "--livereload", "--host", "0.0.0.0", "--port", "4000"] 
