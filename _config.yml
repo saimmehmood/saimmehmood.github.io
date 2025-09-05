@@ -30,7 +30,7 @@ linkedin_username: saimmehmoodgul
 about_profile_image: images/circle-cropped.png
 about_content: | # this will include new lines to allow paragraphs
     AI and Data Professional with 5+ years of experience delivering data-driven solutions in **AI/ML, Data
-    Engineering, and Software Development** across diverse industries including **financial services, real estate,
+    Engineering, and Applied Research** across diverse industries including **financial services, real estate,
     and utilities** across North America. Certified **Google Cloud Professional Machine Learning Engineer**,
     holding an MSc in Computer Science (York University) and a BSc in Software Engineering. Applied research
     experience at the **Data Mining Lab, York University**, with **award-winning work published at the IEEE MDM
@@ -49,13 +49,13 @@ about_content: | # this will include new lines to allow paragraphs
     
     • Data Mining & Visualization - Python (matplotlib, seaborn, pandas, numpy), PySpark, Power BI/Tableau
 
-    • Programming Languages - Python, Java, C#, C/C++, JavaScript/TypeScript
+    • Programming Languages - Python, Java/C#, C/C++, JavaScript/TypeScript
    
     • Databases - PostgreSQL/PostGIS, MongoDB, MySQL, Oracle
 
-    • Google Cloud Platform (GCP) - Vertex AI, BigQuery, Dataflow
+    • Cloud & DevOps - GCP(Vertex AI, BigQuery, Docker), Azure Databricks, Git, Bitbucket, Jira
 
-    • NLP & Machine Learning - spaCY, NLTK, Tensorflow/PyTorch/Keras
+    • Development & BI Tools - VS Code, Cursor, Sourcetree, DBeaver, Power BI/Tableau, Matlab
 
     • Operating Systems - Linux/Mac, Windows
     
