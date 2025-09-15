@@ -25,15 +25,17 @@
   
   description: | # this will include new lines to allow paragraphs
   
-    •	Designed Data Pipelines to extract, transform and load (ETL) data from customer information systems (CIS) into meter data management (MDM) software 
+    •	Designed Data Pipelines to extract, transform and load (ETL) data from customer information systems (CIS) into meter data management (MDM) software using Rules Engine (proprietary ETL tool) and SQL
     
-    •	Managed the processing, transformation and extraction of meter data coming from advanced metering infrastructure (AMI) systems 
+    •	Managed the processing, transformation and extraction of meter data coming from advanced metering infrastructure (AMI) systems such as (Sensus, Itron, L+G) using Multispeak Web Services (SOAP/WSDL, REST APIs)
     
-    •	Implemented modules such as line loss analysis, leak detection and transformer load analysis 
+    •	Implemented modules such for line loss analysis, leak detection and transformer load analysis, reducing utility losses by (10-20%) and improving operational efficiency - data solutions & data models 
     
-    •	Collaborated with clients to understand their requirements and implementing customized solutions based on their needs 
+    • Collaborated with internal stakeholders and clients to define business requirements and deliver tailored solutions - compliance, service delivery
     
-    •	Contributed towards the implementation of in-house large language model (LLM) based module
+    • Provided technical support and troubleshooting throughout project implementation - project management, configuration management
+
+    • Contributed to the development and integration of a proprietary LLM-based analytics module, extending MDM insights - Python, PowerBI, LLM, google-t5 (text-to-text transformer based model)
 
 
 - layout: left
@@ -44,7 +46,7 @@
   
   description: | # this will include new lines to allow paragraphs
   
-    •	Built end-to-end machine learning models (training, deployment & evaluation) using AutoML and custom model training by leveraging Vertex AI, BigQuery, Docker and Dataflow for a client in financial space. Improving their ability to train ML models more efficiently using GCP
+    •	Built end-to-end machine learning models (training, deployment & evaluation) using AutoML and custom model training by leveraging Vertex AI, BigQuery, Docker and Dataflow for a client in financial space. Improving their ability to train ML models more efficiently using GCP - Python, ML Libraries (scikit-learn, Tensorflow/Keras/PyTorch), pandas, numpy
 
     • Developed and deployed semantic models to detect bias in appraisal documents, leveraging Document AI and Cohere API
     
