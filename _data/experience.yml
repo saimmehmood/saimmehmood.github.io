@@ -1,21 +1,30 @@
 - layout: left
-  company: Career Break
-  
-  job_title: Personal Projects 
-  dates: Mar 2025 - to date
-  
+  company: Optimize Financial Group
+  job_title: AI Engineer
+  dates: Jan 2026 - April 2026
   description: | # this will include new lines to allow paragraphs
-  
-    • Pursuing **AI Agents** Certification by Hugging Face and exploring the capabilities of LLMs
-    
-    • Developing an understanding of running Large Language Models locally via Ollama
+    Contract Full-time, Toronto, ON
 
-    • Understanding Optimization techniques in AI Models such as RAG (Retrieval Augmented Generation), Fine Tuning and Prompt Engineering
+    • Engineered autonomous AI agents to analyze advisor-representative consultations, extracting compliance insights to improve client service quality and regulatory adherence
 
-    • Exploring Agentic AI and developing applications using AI tools such as Cursor
-    
-    • Developed a Chrome extension to organize bookmarks by year, month and topic. 
-    [Github](https://github.com/saimmehmood/bookmark_manager)
+    • Automated contact enrichment pipeline using Playwright and Node.js to scrape and verify financial advisor data from regulatory databases and Google, reducing manual contact research time by 50% for the wealth management team
+
+    • Containerized AI agent services using Docker and Amazon ECR, deploying on EC2 instances to ensure reliable, cost-effective availability for on-demand workloads
+
+    • Architected serverless workflows via AWS Lambda to execute complex AI agent prompts, complementing container-based deployments for lightweight, on-demand tasks
+
+- layout: left
+  company: Mercor
+  job_title: Data Science Expert
+  dates: Oct 2025 - Jan 2026
+  description: | # this will include new lines to allow paragraphs
+    Contract Part-time, Remote, ON
+
+    • Contributed to rubric-driven AI model training, focusing on reasoning quality, instruction adherence, and robustness
+
+    • Built structured ML Jupyter notebooks from prompt → starter code → final reference implementation
+
+    • Designed datasets and evaluation criteria to systematically test model performance and failure modes
 
 - layout: left
   company: N. Harris Computer Corporation
