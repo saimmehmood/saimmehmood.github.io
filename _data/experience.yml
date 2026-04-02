@@ -3,7 +3,6 @@
   job_title: AI Engineer
   dates: Jan 2026 - April 2026
   description: | # this will include new lines to allow paragraphs
-    Contract Full-time, Toronto, ON
 
     • Engineered autonomous AI agents to analyze advisor-representative consultations, extracting compliance insights to improve client service quality and regulatory adherence
 
@@ -18,7 +17,6 @@
   job_title: Data Science Expert
   dates: Oct 2025 - Jan 2026
   description: | # this will include new lines to allow paragraphs
-    Contract Part-time, Remote, ON
 
     • Contributed to rubric-driven AI model training, focusing on reasoning quality, instruction adherence, and robustness
 
@@ -29,7 +27,7 @@
 - layout: left
   company: N. Harris Computer Corporation
   # link: http://dminer.eecs.yorku.ca/
-  job_title: Technical Consultant/Data Engineer 
+  job_title: Data Engineering Consultant 
   dates: Apr 2023 - Mar 2025
   
   description: | # this will include new lines to allow paragraphs
