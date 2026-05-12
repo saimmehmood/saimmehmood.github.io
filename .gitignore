@@ -1,0 +1,14 @@
+# Jekyll build output
+_site/
+
+# Jekyll cache
+.jekyll-metadata
+.jekyll-cache/
+
+# Local dev
+Gemfile.local
+Gemfile.local.lock
+.ruby-version
+
+# OS
+.DS_Store
