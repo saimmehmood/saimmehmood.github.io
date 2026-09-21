@@ -1,4 +1,20 @@
 - layout: left
+  company: Apple
+  job_title: Senior ML Engineer
+  dates: Jun 2026 - Present
+  description: | # this will include new lines to allow paragraphs
+
+    • Work across large-scale multi-tenant Kubernetes compute infrastructure and the ML/analytics products that run on top of it — from the capacity layer up to the user-facing application
+
+    • Built the AI assistant inside an internal forecasting product end to end: an LLM agent orchestrated with LangGraph, served over mutual-TLS through an enterprise model gateway, grounded in a curated knowledge corpus with safety guardrails, plus the multi-turn React chat interface
+
+    • Shipped the model-selection, backtesting, and data-quality surfaces of a time-series forecasting platform spanning classical and pretrained forecasting models — the paths users depend on to judge whether a forecast is trustworthy, including automatic inference of data granularity and clear diagnostics when a series has too little history to score
+
+    • Led that platform's migration from a monolith to a decoupled React frontend, Python/FastAPI backend, and distributed compute tier — then drove the follow-up cleanup that retired ~30,000 lines of superseded code and closed several dependency CVEs blocking release
+
+    • Plan and execute capacity operations for a multi-tenant Kubernetes batch-computing platform — moving tens of thousands of CPU cores and hundreds of terabytes of memory across 35+ production clusters and 40+ tenant workloads, through reviewed configuration-as-code with dry-run validation before any production change; 80+ merged PRs, 175+ peer reviews, and the peer-review gate the team now runs on
+
+- layout: left
   company: Optimize Financial Group
   job_title: AI Engineer
   dates: Jan 2026 - April 2026
