@@ -15,6 +15,18 @@
     • Plan and execute capacity operations for a multi-tenant Kubernetes batch-computing platform — moving tens of thousands of CPU cores and hundreds of terabytes of memory across 35+ production clusters and 40+ tenant workloads, through reviewed configuration-as-code with dry-run validation before any production change; 80+ merged PRs, 175+ peer reviews, and the peer-review gate the team now runs on
 
 - layout: left
+  company: AnswerLayer
+  job_title: ML Engineer
+  dates: May 2026 - Sep 2026
+  description: | # this will include new lines to allow paragraphs
+
+    • Built the machine learning platform for AnswerLayer from the ground up, from writing the product spec to shipping it. That includes a separate ML service, model storage on AWS S3 and Postgres, secure service-to-service login, and automatic nightly retraining
+
+    • Delivered forecasting and clustering with 8 algorithms that customers can pick and tune (Ridge, gradient boosting, spline, baseline; K-Means, GMM, DBSCAN, HDBSCAN). The setup is plug-in style, so adding a new model doesn't change the API, the job runners or the UI
+
+    • Built interactive React "Lab" screens where users train models, adjust settings and see live predictions with confidence intervals, backed by end-to-end tests, a self-contained demo and thorough code reviews to meet the client's contract requirements on time
+
+- layout: left
   company: Optimize Financial Group
   job_title: AI Engineer
   dates: Jan 2026 - April 2026
