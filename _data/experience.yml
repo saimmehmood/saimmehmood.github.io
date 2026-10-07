@@ -2,6 +2,10 @@
   company: Apple
   job_title: Senior ML Platform Engineer
   dates: Jun 2026 - Present
+  short: Apple
+  logo: fa-brands fa-apple
+  area: [ai, ml, cloud]
+  tags: [Kubernetes, LangGraph, LLM Agents, Time-series Forecasting, React, FastAPI]
   description: | # this will include new lines to allow paragraphs
 
     • Working across large-scale multi-tenant Kubernetes compute infrastructure and the ML/analytics products that run on top of it — from the capacity layer up to the user-facing application
@@ -18,6 +22,10 @@
   company: AnswerLayer
   job_title: ML Engineer
   dates: May 2026 - Sep 2026
+  short: AnswerLayer
+  mono: AL
+  area: [ml, cloud]
+  tags: [ML Platform, Forecasting, Clustering, AWS S3, Postgres, React]
   description: | # this will include new lines to allow paragraphs
 
     • Built the machine learning platform for AnswerLayer from the ground up, from writing the product spec to shipping it. That includes a separate ML service, model storage on AWS S3 and Postgres, secure service-to-service login, and automatic nightly retraining
@@ -30,6 +38,9 @@
   company: Optimize Financial Group
   job_title: AI Engineer
   dates: Jan 2026 - April 2026
+  short: Optimize Financial
+  area: [ai, cloud]
+  tags: [AI Agents, AWS Lambda, Docker, Amazon ECR, EC2, Playwright]
   description: | # this will include new lines to allow paragraphs
 
     • Engineered autonomous AI agents to analyze advisor-representative consultations, extracting compliance insights to improve client service quality and regulatory adherence
@@ -44,6 +55,9 @@
   company: Mercor
   job_title: Data Scientist
   dates: Nov 2025 - Jan 2026
+  short: Mercor
+  area: [ai, ml]
+  tags: [LLM Training, Model Evaluation, Dataset Design, Jupyter]
   description: | # this will include new lines to allow paragraphs
 
     • Contributed to rubric-driven AI model training, focusing on reasoning quality, instruction adherence, and robustness
@@ -57,6 +71,9 @@
   # link: http://dminer.eecs.yorku.ca/
   job_title: Data Engineering Consultant 
   dates: Apr 2023 - Mar 2025
+  short: Harris
+  area: [data, ai]
+  tags: [ETL Pipelines, SQL, REST/SOAP APIs, Power BI, LLMs, T5]
   
   description: | # this will include new lines to allow paragraphs
   
@@ -78,6 +95,9 @@
   # link: http://dminer.eecs.yorku.ca/
   job_title: Machine Learning (MLOps) Engineer
   dates: Apr 2022 - Jan 2023
+  short: Badal.io
+  area: [ml, cloud]
+  tags: [Vertex AI, BigQuery, AutoML, Dataflow, Document AI, Cohere]
   
   description: | # this will include new lines to allow paragraphs
   
@@ -93,6 +113,9 @@
   # link: http://dminer.eecs.yorku.ca/
   job_title: Graduate Teaching Assistant
   dates: Jan 2018 - Dec 2022
+  short: York University
+  area: [teaching]
+  tags: [Java, OOP, Android, Databases, Software Design]
   # quote: >
   #  Solving 21st century problems by diging holes and making game changing products like the *not a flamethrower*
   description: | # this will include new lines to allow paragraphs
@@ -107,6 +130,9 @@
   link: http://dminer.eecs.yorku.ca/
   job_title: Graduate Research Assistant
   dates: Jan 2018 - Apr 2020
+  short: York Data Mining Lab
+  area: [research, ml, data]
+  tags: [Trajectory Mining, PostGIS, Python, Statistical Inference]
   # quote: >
   #  Solving 21st century problems by diging holes and making game changing products like the *not a flamethrower*
   description: | # this will include new lines to allow paragraphs
@@ -122,6 +148,9 @@
   # link: http://dminer.eecs.yorku.ca/
   job_title: Erasmus Scholar
   dates: Aug 2015 - Jan 2016
+  short: Uppsala University
+  area: [research, cloud]
+  tags: [Apache Spark, SparkR, Jupyter, Cloud Computing]
   # quote: >
   #  Solving 21st century problems by diging holes and making game changing products like the *not a flamethrower*
   description: | # this will include new lines to allow paragraphs

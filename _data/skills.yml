@@ -1,0 +1,22 @@
+# Skill groups shown as tiles. `icon` is a Font Awesome 6 solid icon name.
+groups:
+  - group: AI & LLMs
+    icon: wand-magic-sparkles
+    items: [LangGraph, LLM Agents, RAG, Google Gemini, OpenAI, Cohere, DeepSeek, Ollama, Claude, Cursor]
+  - group: Machine Learning
+    icon: brain
+    items: [scikit-learn, TensorFlow, Keras, PyTorch, Vertex AI, AutoML, Time-series Forecasting, Clustering, NLP]
+  - group: Data & Analytics
+    icon: chart-line
+    items: [Python, pandas, numpy, PySpark, matplotlib, seaborn, Power BI, Tableau, ETL Pipelines]
+  - group: Cloud & DevOps
+    icon: cloud
+    items: [AWS Lambda, EC2, ECR, S3, GCP, BigQuery, Azure Databricks, Kubernetes, Docker, GitHub Actions]
+  - group: Databases
+    icon: database
+    items: [PostgreSQL, PostGIS, MongoDB, MySQL, Oracle]
+  - group: Languages & Tools
+    icon: code
+    items: [Python, Java, C#, C/C++, JavaScript, TypeScript, React, FastAPI, Matlab, VS Code, Jira]
+
+interests: [Data Mining, Machine Learning, Data Science, NLP, Cloud Computing, Agentic AI, LLMs, RAG]

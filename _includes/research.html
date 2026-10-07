@@ -1,0 +1,51 @@
+<section class="section" id="research" aria-labelledby="research-title">
+  <div class="wrap">
+    <div class="section-head reveal">
+      <p class="eyebrow">04 · Research &amp; Writing</p>
+      <h2 id="research-title">Published, cited, and shared</h2>
+    </div>
+
+    <div class="research-grid">
+      {%- for pub in site.data.publications -%}
+        <article class="tile paper reveal">
+          {%- if pub.award -%}<p class="badge-award"><i class="fa-solid fa-trophy" aria-hidden="true"></i> {{ pub.award }}</p>{%- endif -%}
+          <h3 class="paper-title">{{ pub.title }}</h3>
+          <p class="paper-meta">{{ pub.authors }}</p>
+          <p class="paper-venue">{{ pub.venue }} · {{ pub.place }}, {{ pub.year }}</p>
+          {%- if pub.summary -%}<p class="paper-summary">{{ pub.summary }}</p>{%- endif -%}
+          {%- if pub.topics -%}<ul class="tags">{%- for t in pub.topics -%}<li>{{ t }}</li>{%- endfor -%}</ul>{%- endif -%}
+          <div class="paper-foot">
+            {%- if pub.citations -%}
+              <p class="paper-cites"><span class="stat-value" data-count="{{ pub.citations }}">{{ pub.citations }}</span><span>citations on Google Scholar</span></p>
+            {%- endif -%}
+            <div class="paper-links">
+              {%- if pub.link -%}<a class="btn btn-primary btn-sm" href="{{ pub.link }}" target="_blank" rel="noopener">Read on IEEE <i class="fa-solid fa-arrow-up-right-from-square" aria-hidden="true"></i></a>{%- endif -%}
+              {%- if pub.code -%}<a class="btn btn-ghost btn-sm" href="{{ pub.code }}" target="_blank" rel="noopener"><i class="fa-brands fa-github" aria-hidden="true"></i> Code</a>{%- endif -%}
+            </div>
+          </div>
+          <div class="paper-art" aria-hidden="true">
+            <svg viewBox="0 0 200 140" focusable="false">
+              <path d="M10 120 C 40 90, 60 110, 85 70 S 140 40, 190 20" />
+              <path d="M10 90 C 50 100, 70 50, 110 60 S 160 100, 190 70" />
+              <path d="M20 30 C 60 40, 80 20, 120 35 S 170 60, 185 110" />
+              <circle cx="85" cy="70" r="5" /><circle cx="110" cy="60" r="5" /><circle cx="120" cy="35" r="5" /><circle cx="160" cy="90" r="5" />
+            </svg>
+          </div>
+        </article>
+      {%- endfor -%}
+
+      {%- for w in site.data.writing -%}
+        <a class="tile writing reveal" href="{{ w.link }}" target="_blank" rel="noopener">
+          <p class="writing-kind">
+            {%- if w.kind == "Medium" -%}<i class="fa-brands fa-medium" aria-hidden="true"></i>{%- else -%}<i class="fa-brands fa-stack-overflow" aria-hidden="true"></i>{%- endif -%}
+            {{ w.kind }}{% if w.date %} · {{ w.date }}{% endif %}
+          </p>
+          <h3 class="writing-title">{{ w.title }}</h3>
+          <p class="writing-outlet">{{ w.outlet }}</p>
+          {%- if w.tags -%}<ul class="tags">{%- for t in w.tags -%}<li>{{ t }}</li>{%- endfor -%}</ul>{%- endif -%}
+          <span class="tile-arrow" aria-hidden="true"><i class="fa-solid fa-arrow-up-right-from-square"></i></span>
+        </a>
+      {%- endfor -%}
+    </div>
+  </div>
+</section>

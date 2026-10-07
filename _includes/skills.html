@@ -1,0 +1,30 @@
+<section class="section" id="skills" aria-labelledby="skills-title">
+  <div class="wrap">
+    <div class="section-head reveal">
+      <p class="eyebrow">05 · Skills</p>
+      <h2 id="skills-title">Tools I reach for</h2>
+    </div>
+    <div class="skills-bento">
+      {%- for g in site.data.skills.groups -%}
+        <article class="tile skill reveal" style="--hue: {{ forloop.index0 | times: 52 | plus: 230 | modulo: 360 }}">
+          <div class="skill-head">
+            <span class="mini-icon"><i class="fa-solid fa-{{ g.icon }}" aria-hidden="true"></i></span>
+            <h3>{{ g.group }}</h3>
+          </div>
+          <ul class="skill-list">{%- for s in g.items -%}<li>{{ s }}</li>{%- endfor -%}</ul>
+        </article>
+      {%- endfor -%}
+      {%- if site.data.skills.interests -%}
+        <article class="tile interests reveal">
+          <h3>Curious about</h3>
+          <div class="marquee" aria-label="{{ site.data.skills.interests | join: ', ' }}">
+            <ul class="marquee-track" aria-hidden="true">
+              {%- for i in site.data.skills.interests -%}<li>{{ i }}</li>{%- endfor -%}
+              {%- for i in site.data.skills.interests -%}<li>{{ i }}</li>{%- endfor -%}
+            </ul>
+          </div>
+        </article>
+      {%- endif -%}
+    </div>
+  </div>
+</section>

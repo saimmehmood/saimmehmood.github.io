@@ -1,0 +1,33 @@
+<section class="section" id="connect" aria-labelledby="connect-title">
+  <div class="wrap">
+    <div class="section-head reveal">
+      <p class="eyebrow">07 · Connect</p>
+      <h2 id="connect-title">Find me around the web</h2>
+    </div>
+    <div class="grid profile-grid">
+      {%- for p in site.data.profiles -%}
+        <a class="tile profile reveal" href="{{ p.url }}" target="_blank" rel="noopener"{% if p.live %} data-live="{{ p.live }}"{% endif %}>
+          <span class="profile-icon"><i class="{{ p.icon }}" aria-hidden="true"></i></span>
+          <h3>{{ p.name }}</h3>
+          <p class="profile-handle">{{ p.handle }}</p>
+          <p class="profile-blurb">{{ p.blurb }}</p>
+          <p class="profile-live" aria-live="polite"></p>
+          <span class="tile-arrow" aria-hidden="true"><i class="fa-solid fa-arrow-up-right-from-square"></i></span>
+        </a>
+      {%- endfor -%}
+    </div>
+
+    <div class="tile cta reveal">
+      <div>
+        <h3>Let's build something together.</h3>
+        <p>Open to conversations about ML platforms, LLM agents and data systems.</p>
+      </div>
+      <div class="cta-actions">
+        <a class="btn btn-primary js-email" href="#connect" data-email="{{ site.email }}"><i class="fa-regular fa-envelope" aria-hidden="true"></i> Email me</a>
+        {%- if site.linkedin_username -%}
+          <a class="btn btn-ghost" href="https://www.linkedin.com/in/{{ site.linkedin_username }}" target="_blank" rel="noopener"><i class="fa-brands fa-linkedin-in" aria-hidden="true"></i> LinkedIn</a>
+        {%- endif -%}
+      </div>
+    </div>
+  </div>
+</section>

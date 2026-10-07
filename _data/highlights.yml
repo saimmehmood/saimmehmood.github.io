@@ -1,0 +1,12 @@
+# Headline stats in the hero. `value` animates as a counter when it is a number.
+- value: 7
+  suffix: "+"
+  label: Years in AI, ML & Data
+- value: 9
+  label: Roles across industry & research
+- value: 13
+  label: Citations on IEEE research
+  source: scholar
+- value: 1.1
+  suffix: "M+"
+  label: Views on my top Stack Overflow answer

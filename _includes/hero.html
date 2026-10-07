@@ -1,0 +1,92 @@
+<section class="hero" aria-labelledby="hero-name">
+  <div class="wrap hero-grid">
+    <div class="hero-copy">
+      {%- if site.hero_kicker -%}
+        <p class="kicker reveal"><span class="pulse" aria-hidden="true"></span>Now · {{ site.hero_kicker }}</p>
+      {%- endif -%}
+      <h1 id="hero-name" class="reveal">{{ site.name }}</h1>
+      <ul class="hero-roles reveal" aria-label="Summary">
+        {%- assign roles = site.title | split: "|" -%}
+        {%- for role in roles -%}<li>{{ role | strip }}</li>{%- endfor -%}
+      </ul>
+      {%- if site.hero_tagline -%}<p class="hero-tagline reveal">{{ site.hero_tagline }}</p>{%- endif -%}
+      <div class="hero-cta reveal">
+        <a class="btn btn-primary" href="#work">Explore my work <i class="fa-solid fa-arrow-down" aria-hidden="true"></i></a>
+        <a class="btn btn-ghost js-email" href="#connect" data-email="{{ site.email }}"><i class="fa-regular fa-envelope" aria-hidden="true"></i> Get in touch</a>
+        {%- if site.github_username -%}
+          <a class="icon-btn" href="https://github.com/{{ site.github_username }}" target="_blank" rel="noopener" aria-label="GitHub"><i class="fa-brands fa-github" aria-hidden="true"></i></a>
+        {%- endif -%}
+        {%- if site.linkedin_username -%}
+          <a class="icon-btn" href="https://www.linkedin.com/in/{{ site.linkedin_username }}" target="_blank" rel="noopener" aria-label="LinkedIn"><i class="fa-brands fa-linkedin-in" aria-hidden="true"></i></a>
+        {%- endif -%}
+      </div>
+      {%- if site.location -%}
+        <p class="hero-meta reveal"><i class="fa-solid fa-location-dot" aria-hidden="true"></i> {{ site.location }}</p>
+      {%- endif -%}
+    </div>
+
+    <div class="hero-visual reveal" aria-hidden="true">
+      <div class="orbit"></div>
+      <div class="portrait">
+        <img src="{{ site.about_profile_image | relative_url }}" alt="" width="253" height="253">
+      </div>
+      <span class="float-chip chip-1"><i class="fa-solid fa-trophy"></i> Best Paper · IEEE MDM</span>
+      <span class="float-chip chip-2"><i class="fa-brands fa-google"></i> GCP ML Engineer</span>
+      <span class="float-chip chip-3"><i class="fa-solid fa-robot"></i> LLM agents</span>
+      <span class="float-chip chip-4"><i class="fa-solid fa-dharmachakra"></i> Kubernetes</span>
+    </div>
+  </div>
+
+  {%- if site.data.highlights.size > 0 -%}
+    <div class="wrap stats">
+      {%- for h in site.data.highlights -%}
+        <div class="tile stat reveal"{% if h.source %} data-source="{{ h.source }}"{% endif %}>
+          <span class="stat-value" data-count="{{ h.value }}" data-suffix="{{ h.suffix }}">{{ h.value }}{{ h.suffix }}</span>
+          <span class="stat-label">{{ h.label }}</span>
+        </div>
+      {%- endfor -%}
+    </div>
+  {%- endif -%}
+</section>
+
+<section class="section about" id="about" aria-labelledby="about-title">
+  <div class="wrap">
+    <div class="section-head reveal">
+      <p class="eyebrow">01 · About</p>
+      <h2 id="about-title">The short version</h2>
+    </div>
+    <div class="bento">
+      <article class="tile bento-bio reveal">
+        <div class="prose">{{ site.about_content | strip | markdownify }}</div>
+      </article>
+      {%- assign current = site.data.experience | first -%}
+      <article class="tile bento-mini reveal" style="--hue: 265">
+        <span class="mini-icon"><i class="fa-solid fa-briefcase" aria-hidden="true"></i></span>
+        <p class="mini-label">Currently</p>
+        <p class="mini-value">{{ current.job_title }}</p>
+        <p class="mini-sub">{{ current.company }} · {{ current.dates }}</p>
+      </article>
+      {%- assign degree = site.data.education | first -%}
+      <article class="tile bento-mini reveal" style="--hue: 190">
+        <span class="mini-icon"><i class="fa-solid fa-graduation-cap" aria-hidden="true"></i></span>
+        <p class="mini-label">Education</p>
+        <p class="mini-value">{{ degree.qualification }}</p>
+        <p class="mini-sub">{{ degree.name }}</p>
+      </article>
+      {%- assign cert = site.data.certifications | first -%}
+      <a class="tile bento-mini reveal" style="--hue: 160" href="{{ cert.link }}" target="_blank" rel="noopener">
+        <span class="mini-icon"><i class="fa-solid fa-certificate" aria-hidden="true"></i></span>
+        <p class="mini-label">Certified</p>
+        <p class="mini-value">{{ cert.name | remove: "Google Cloud Certified " }}</p>
+        <p class="mini-sub">Google Cloud <i class="fa-solid fa-arrow-up-right-from-square" aria-hidden="true"></i></p>
+      </a>
+      {%- assign paper = site.data.publications | first -%}
+      <a class="tile bento-mini reveal" style="--hue: 35" href="#research">
+        <span class="mini-icon"><i class="fa-solid fa-trophy" aria-hidden="true"></i></span>
+        <p class="mini-label">Research</p>
+        <p class="mini-value">{{ paper.award }}</p>
+        <p class="mini-sub">IEEE MDM {{ paper.year }} · {{ paper.place }}</p>
+      </a>
+    </div>
+  </div>
+</section>

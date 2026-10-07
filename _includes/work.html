@@ -1,0 +1,63 @@
+<section class="section" id="work" aria-labelledby="work-title">
+  <div class="wrap">
+    <div class="section-head reveal">
+      <p class="eyebrow">02 · Work</p>
+      <h2 id="work-title">Where I've built things</h2>
+      <p class="lead">{{ site.data.experience.size }} roles across industry, research and teaching. Hover the timeline, filter by focus, or open any tile for the full story.</p>
+    </div>
+
+    <div class="journey reveal" hidden>
+      <div class="journey-scroll">
+        <div class="journey-chart" role="list" aria-label="Career timeline"></div>
+      </div>
+    </div>
+
+    <div class="filters reveal" role="toolbar" aria-label="Filter roles by focus area">
+      <button class="chip is-active" type="button" data-filter="all" aria-pressed="true">All <span class="chip-count">{{ site.data.experience.size }}</span></button>
+      {%- for a in site.data.areas -%}
+        {%- assign n = 0 -%}
+        {%- for e in site.data.experience -%}{%- if e.area contains a.key -%}{%- assign n = n | plus: 1 -%}{%- endif -%}{%- endfor -%}
+        {%- if n > 0 -%}
+          <button class="chip" type="button" data-filter="{{ a.key }}" aria-pressed="false" style="--hue: {{ a.hue }}"><span class="chip-dot" aria-hidden="true"></span>{{ a.label }} <span class="chip-count">{{ n }}</span></button>
+        {%- endif -%}
+      {%- endfor -%}
+    </div>
+
+    <div class="grid work-grid">
+      {%- for e in site.data.experience -%}
+        {%- assign primary = e.area | first -%}
+        {%- assign area = site.data.areas | where: "key", primary | first -%}
+        {%- if e.area contains "research" or e.area contains "teaching" -%}{%- assign track = "Research & Teaching" -%}{%- else -%}{%- assign track = "Industry" -%}{%- endif -%}
+        <article class="tile role reveal" id="role-{{ forloop.index }}" data-area="{{ e.area | join: ' ' }}" data-dates="{{ e.dates }}" data-track="{{ track }}" data-label="{{ e.short | default: e.company }}" style="--hue: {{ area.hue | default: 230 }}">
+          <div class="role-top">
+            {%- include monogram.html text=e.short mono=e.mono icon=e.logo -%}
+            <p class="role-when"><span>{{ e.dates }}</span><span class="role-duration"></span></p>
+          </div>
+          <h3 class="role-title">{{ e.job_title | strip }}</h3>
+          <p class="role-org">{{ e.company }}</p>
+          <p class="role-summary">{% include summary.html text=e.description length=210 %}</p>
+          {%- if e.tags -%}
+            <ul class="tags" aria-label="Skills">
+              {%- for t in e.tags limit: 4 -%}<li>{{ t }}</li>{%- endfor -%}
+              {%- if e.tags.size > 4 -%}<li class="tag-more">+{{ e.tags.size | minus: 4 }}</li>{%- endif -%}
+            </ul>
+          {%- endif -%}
+          <button class="tile-open" type="button" aria-haspopup="dialog">Read more<span class="sr-only"> about {{ e.job_title | strip }} at {{ e.company }}</span> <i class="fa-solid fa-arrow-right" aria-hidden="true"></i></button>
+          <template class="detail-tpl">
+            <header class="detail-head" style="--hue: {{ area.hue | default: 230 }}">
+              {%- include monogram.html text=e.short mono=e.mono icon=e.logo size="lg" -%}
+              <div>
+                <p class="detail-when">{{ e.dates }}<span class="role-duration"></span></p>
+                <h2 id="detail-title">{{ e.job_title | strip }}</h2>
+                <p class="detail-org">{% if e.link %}<a href="{{ e.link }}" target="_blank" rel="noopener">{{ e.company }} <i class="fa-solid fa-arrow-up-right-from-square" aria-hidden="true"></i></a>{% else %}{{ e.company }}{% endif %}</p>
+              </div>
+            </header>
+            {%- if e.tags -%}<ul class="tags">{%- for t in e.tags -%}<li>{{ t }}</li>{%- endfor -%}</ul>{%- endif -%}
+            <div class="prose detail-prose">{{ e.description | strip | markdownify }}</div>
+          </template>
+        </article>
+      {%- endfor -%}
+    </div>
+    <p class="empty-state" hidden>No roles match that filter.</p>
+  </div>
+</section>

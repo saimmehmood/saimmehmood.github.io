@@ -1,0 +1,19 @@
+# Focus areas used to filter the Work tiles. `hue` drives each area's accent colour.
+- key: ai
+  label: AI & LLMs
+  hue: 265
+- key: ml
+  label: Machine Learning
+  hue: 230
+- key: data
+  label: Data Engineering
+  hue: 190
+- key: cloud
+  label: Cloud & Infra
+  hue: 160
+- key: research
+  label: Research
+  hue: 35
+- key: teaching
+  label: Teaching
+  hue: 330

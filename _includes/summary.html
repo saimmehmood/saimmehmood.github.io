@@ -1,0 +1,8 @@
+{%- comment -%} First bullet/paragraph of a description, as plain text. {%- endcomment -%}
+{%- assign summary_parts = include.text | strip | split: "•" -%}
+{%- assign summary_text = "" -%}
+{%- for part in summary_parts -%}
+  {%- assign part_text = part | strip -%}
+  {%- if part_text != "" -%}{%- assign summary_text = part_text -%}{%- break -%}{%- endif -%}
+{%- endfor -%}
+{{- summary_text | markdownify | strip_html | strip | truncate: include.length | default: 200 -}}
