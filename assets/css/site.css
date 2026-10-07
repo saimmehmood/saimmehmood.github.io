@@ -547,7 +547,7 @@ a.tile:hover .tile-arrow { color: var(--accent-ink); background: var(--tint); tr
 }
 .award-title { font-weight: 600; font-size: 15px; line-height: 1.4; color: var(--ink); }
 .award-date { font: 500 12px var(--font-mono); color: var(--muted); margin-top: 4px; }
-.community-grid { grid-template-columns: repeat(auto-fill, minmax(280px, 1fr)); }
+.community-grid { grid-template-columns: repeat(auto-fill, minmax(240px, 1fr)); }
 .community { display: flex; flex-direction: column; gap: 8px; --hue: 330; }
 .community h4 { font-size: 17px; }
 

@@ -1,8 +1,18 @@
 - layout: left
+  company: Hamilton Mountain Masjid
+  job_title: Ghusul Volunteer and Developer
+  dates: Sep 2025 - Present
+  description: | # this will include new lines to allow paragraphs
+    •	Volunteering for Ghusul services in the community
+
+    •	Developed a web application for the community to schedule Ghusul volunteers - [Live app](https://ghusul-app.vercel.app/)
+
+
+- layout: left
   company: SharpestMinds
   link: https://www.sharpestminds.com/
   job_title: Data Science Mentor
-  dates: Jul 2022 - to Present
+  dates: Jul 2022 - Apr 2026
   # quote: >
   #  Solving 21st century problems by diging holes and making game changing products like the *not a flamethrower*
   description: | # this will include new lines to allow paragraphs
