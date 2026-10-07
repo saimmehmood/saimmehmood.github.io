@@ -85,13 +85,14 @@
   }
   var revealables = $$('.reveal');
   if ('IntersectionObserver' in window && !reduceMotion) {
+    root.classList.add('reveal-on');
     var io = new IntersectionObserver(function (entries) {
       var batch = entries.filter(function (e) { return e.isIntersecting; });
       batch.forEach(function (entry, i) {
         show(entry.target, Math.min(i, 6) * 70);
         io.unobserve(entry.target);
       });
-    }, { rootMargin: '0px 0px -8% 0px', threshold: 0.08 });
+    }, { threshold: 0 });
     revealables.forEach(function (n) { io.observe(n); });
   } else {
     revealables.forEach(function (n) { show(n, 0); });
