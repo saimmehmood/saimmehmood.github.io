@@ -1,0 +1,8 @@
+{%- comment -%} Tile badge: an icon class (e.g. a brand logo), an explicit `mono`, or initials of the first two words. {%- endcomment -%}
+{%- assign mono_words = include.text | split: " " -%}
+<span class="monogram{% if include.size %} monogram-{{ include.size }}{% endif %}" aria-hidden="true">
+  {%- if include.icon -%}<i class="{{ include.icon }}"></i>
+  {%- elsif include.mono -%}{{ include.mono }}
+  {%- else -%}{{ mono_words[0] | slice: 0 }}{% if mono_words.size > 1 %}{{ mono_words[1] | slice: 0 }}{% endif %}
+  {%- endif -%}
+</span>

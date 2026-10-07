@@ -1,6 +1,47 @@
-<div class="container projects-container">
-  <h3>{{ site.projects_title | default: "Notable Projects" }}</h3>
-  {% for project in site.data.projects %}
-    {% include {{ project.layout | default: 'left' | append: ".html" }} item=project %}
-  {% endfor %}
-</div>
+<section class="section" id="projects" aria-labelledby="projects-title">
+  <div class="wrap">
+    <div class="section-head reveal">
+      <p class="eyebrow">03 · Projects</p>
+      <h2 id="projects-title">Selected projects</h2>
+      <p class="lead">Research prototypes and data experiments, most with code you can read.</p>
+    </div>
+
+    <div class="grid project-grid">
+      {%- for p in site.data.projects -%}
+        {%- assign is_code = p.link contains "github.com" -%}
+        <article class="tile project reveal" style="--hue: {{ forloop.index0 | times: 47 | plus: 210 | modulo: 360 }}">
+          <div class="project-art" aria-hidden="true">
+            <i class="fa-solid fa-{{ p.icon | default: 'flask' }}"></i>
+          </div>
+          <div class="project-body">
+            {%- if p.kind -%}<p class="project-kind">{{ p.kind }}</p>{%- endif -%}
+            <h3 class="project-title">{{ p.name | strip }}</h3>
+            <p class="project-desc">{% include summary.html text=p.description length=230 %}</p>
+            {%- if p.stack -%}
+              <ul class="tags" aria-label="Stack">
+                {%- for t in p.stack limit: 5 -%}<li>{{ t }}</li>{%- endfor -%}
+                {%- if p.stack.size > 5 -%}<li class="tag-more">+{{ p.stack.size | minus: 5 }}</li>{%- endif -%}
+              </ul>
+            {%- endif -%}
+            {%- if p.link -%}
+              <a class="tile-link" href="{{ p.link }}" target="_blank" rel="noopener">
+                {%- if is_code -%}<i class="fa-brands fa-github" aria-hidden="true"></i> View code{%- else -%}<i class="fa-brands fa-medium" aria-hidden="true"></i> Read the article{%- endif -%}
+                <span class="sr-only">: {{ p.name | strip }}</span>
+              </a>
+            {%- endif -%}
+          </div>
+        </article>
+      {%- endfor -%}
+    </div>
+
+    {%- if site.github_username -%}
+      <div class="live-repos" data-github="{{ site.github_username }}" hidden>
+        <div class="subhead reveal">
+          <h3><span class="live-dot" aria-hidden="true"></span> Fresh from GitHub</h3>
+          <a class="text-link" href="https://github.com/{{ site.github_username }}?tab=repositories" target="_blank" rel="noopener">All repositories <i class="fa-solid fa-arrow-right" aria-hidden="true"></i></a>
+        </div>
+        <div class="grid repo-grid" aria-live="polite"></div>
+      </div>
+    {%- endif -%}
+  </div>
+</section>

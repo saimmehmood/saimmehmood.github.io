@@ -1,0 +1,28 @@
+# Profile tiles. `live` turns on a client-side stats fetch (github / stackoverflow).
+- name: GitHub
+  icon: fa-brands fa-github
+  handle: "@saimmehmood"
+  url: https://github.com/saimmehmood
+  blurb: Research code, ML experiments and side projects
+  live: github
+- name: LinkedIn
+  icon: fa-brands fa-linkedin-in
+  handle: saimmehmoodgul
+  url: https://www.linkedin.com/in/saimmehmoodgul
+  blurb: Full career history and recommendations
+- name: Google Scholar
+  icon: fa-brands fa-google-scholar
+  handle: 13 citations
+  url: https://scholar.google.com/citations?hl=en&user=5_hgDIYAAAAJ
+  blurb: IEEE MDM 2020 Best Paper and citing work
+- name: Stack Overflow
+  icon: fa-brands fa-stack-overflow
+  handle: Saim Mehmood
+  url: https://stackoverflow.com/users/4044015/saim-mehmood
+  blurb: Answers read by over a million developers
+  live: stackoverflow
+- name: Medium
+  icon: fa-brands fa-medium
+  handle: "@saim-mehmood-gul"
+  url: https://saim-mehmood-gul.medium.com/
+  blurb: Articles on data science and Python

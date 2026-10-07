@@ -1,0 +1,20 @@
+<header class="nav" id="top">
+  <div class="nav-inner">
+    <a class="nav-brand" href="#top" aria-label="{{ site.name }}, back to top">
+      <span class="nav-mark">{{ site.name | split: " " | first | slice: 0 }}{{ site.name | split: " " | last | slice: 0 }}</span>
+      <span class="nav-name">{{ site.name }}</span>
+    </a>
+    <nav class="nav-links" aria-label="Sections">
+      <a href="#work">Work</a>
+      <a href="#projects">Projects</a>
+      <a href="#research">Research</a>
+      <a href="#skills">Skills</a>
+      <a href="#education">Education</a>
+      <a href="#connect">Connect</a>
+    </nav>
+    <button class="theme-toggle" type="button" aria-label="Toggle dark mode">
+      <i class="fa-solid fa-moon" aria-hidden="true"></i>
+      <i class="fa-solid fa-sun" aria-hidden="true"></i>
+    </button>
+  </div>
+</header>

@@ -1,0 +1,11 @@
+- title: Learning Semantic Relationships of Geographical Areas based on Trajectories
+  authors: S. Mehmood, M. Papagelis
+  venue: 21st IEEE International Conference on Mobile Data Management (MDM)
+  place: Versailles, France
+  year: 2020
+  award: Best Paper Award
+  citations: 13
+  link: https://ieeexplore.ieee.org/document/9162305
+  summary: A framework that uses the movement paths (trajectories) of cars, pedestrians and other objects to infer semantic similarities between geographical areas.
+  topics: [Trajectory Mining, Graph Analysis, PostGIS, Python, Statistical Inference]
+  code: https://github.com/saimmehmood/semantic_relationships

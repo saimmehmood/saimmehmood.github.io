@@ -1,5 +1,6 @@
 - layout: left
   name: York University
+  short: York University
   dates: Jan 2018 - June 2020
   qualification: MSc Computer Science
   quote: >
@@ -14,6 +15,7 @@
     
 - layout: left
   name: University of the Punjab
+  short: Punjab University
   dates: Sep 2012 - Jul 2016
   qualification: Bachelor of Sciences in Software Engineering
   quote: >

@@ -1,6 +1,71 @@
-<div class="container education-container">
-  <h3>{{ site.education_title | default: "Education" }}</h3>
-  {% for education in site.data.education %}
-    {% include {{ education.layout | default: 'left' | append: ".html" }} item=education %}
-  {% endfor %}
-</div>
+<section class="section" id="education" aria-labelledby="education-title">
+  <div class="wrap">
+    <div class="section-head reveal">
+      <p class="eyebrow">06 · Education &amp; Recognition</p>
+      <h2 id="education-title">Learning, awards, and giving back</h2>
+    </div>
+
+    <div class="grid edu-grid">
+      {%- for ed in site.data.education -%}
+        <article class="tile edu reveal" data-dates="{{ ed.dates }}" data-track="Education" data-label="{{ ed.qualification | split: ' ' | first }} · {{ ed.name }}" style="--hue: {{ forloop.index0 | times: 140 | plus: 190 | modulo: 360 }}">
+          <div class="role-top">
+            {%- include monogram.html text=ed.short -%}
+            <p class="role-when"><span>{{ ed.dates }}</span></p>
+          </div>
+          <h3 class="role-title">{{ ed.qualification }}</h3>
+          <p class="role-org">{{ ed.name }}</p>
+          <p class="role-summary">{% include summary.html text=ed.description length=200 %}</p>
+          <button class="tile-open" type="button" aria-haspopup="dialog">Read more<span class="sr-only"> about {{ ed.qualification }}</span> <i class="fa-solid fa-arrow-right" aria-hidden="true"></i></button>
+          <template class="detail-tpl">
+            <header class="detail-head" style="--hue: {{ forloop.index0 | times: 140 | plus: 190 | modulo: 360 }}">
+              {%- include monogram.html text=ed.short size="lg" -%}
+              <div>
+                <p class="detail-when">{{ ed.dates }}</p>
+                <h2 id="detail-title">{{ ed.qualification }}</h2>
+                <p class="detail-org">{{ ed.name }}</p>
+              </div>
+            </header>
+            <div class="prose detail-prose">{{ ed.description | strip | markdownify }}</div>
+            {%- if ed.quote -%}<p class="detail-note">{{ ed.quote | strip }}</p>{%- endif -%}
+          </template>
+        </article>
+      {%- endfor -%}
+
+      {%- for c in site.data.certifications -%}
+        <a class="tile cert reveal" href="{{ c.link }}" target="_blank" rel="noopener">
+          <span class="mini-icon"><i class="fa-solid fa-certificate" aria-hidden="true"></i></span>
+          <p class="mini-label">Certification</p>
+          <h3 class="cert-title">{{ c.name }}</h3>
+          <p class="mini-sub">{{ c.dates }}</p>
+          <span class="tile-arrow" aria-hidden="true"><i class="fa-solid fa-arrow-up-right-from-square"></i></span>
+        </a>
+      {%- endfor -%}
+    </div>
+
+    {%- if site.data.awards.size > 0 -%}
+      <div class="subhead reveal"><h3>Honors &amp; awards</h3></div>
+      <ul class="awards">
+        {%- for a in site.data.awards -%}
+          <li class="tile award reveal">
+            <span class="award-icon"><i class="fa-solid fa-{{ a.icon | default: 'award' }}" aria-hidden="true"></i></span>
+            <div><p class="award-title">{{ a.title }}</p><p class="award-date">{{ a.date }}</p></div>
+          </li>
+        {%- endfor -%}
+      </ul>
+    {%- endif -%}
+
+    {%- if site.data.volunteer.size > 0 -%}
+      <div class="subhead reveal"><h3>Community</h3></div>
+      <div class="grid community-grid">
+        {%- for v in site.data.volunteer -%}
+          <article class="tile community reveal">
+            <p class="mini-label">{{ v.dates }}</p>
+            <h4>{{ v.job_title | default: "Volunteer" }}</h4>
+            <p class="role-org">{% if v.link %}<a href="{{ v.link }}" target="_blank" rel="noopener">{{ v.company }}</a>{% else %}{{ v.company }}{% endif %}</p>
+            <div class="prose small">{{ v.description | strip | markdownify }}</div>
+          </article>
+        {%- endfor -%}
+      </div>
+    {%- endif -%}
+  </div>
+</section>

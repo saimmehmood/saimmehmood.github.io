@@ -1,0 +1,18 @@
+# Articles and community answers shown in the Writing section.
+- kind: Medium
+  title: "COVID-19: Risk of Geographical Areas being infected"
+  outlet: Towards Data Science
+  date: Jun 2020
+  link: https://medium.com/data-science/covid-19-risk-of-geographical-areas-being-infected-a81938a5e286
+  tags: [Trajectory Mining, PostgreSQL, COVID-19]
+- kind: Medium
+  title: Calculating Zakat using Python
+  outlet: Python in Plain English
+  date: Apr 2021
+  link: https://python.plainenglish.io/calculating-zakat-using-python-da4eb213d1ea
+  tags: [Python, Programming]
+- kind: Stack Overflow
+  title: How to add an image to the "drawable" folder in Android Studio?
+  outlet: Top answer · 60 votes · 1.1M+ views
+  link: https://stackoverflow.com/questions/29047902
+  tags: [Android Studio]

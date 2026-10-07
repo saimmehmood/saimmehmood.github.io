@@ -1,5 +1,7 @@
 # Site
 # repository: sproogen/resume-theme
+url: https://saimmehmood.github.io
+baseurl: ""
 favicon: images/favicon.ico
 
 darkmode: false
@@ -20,10 +22,16 @@ github_username:  saimmehmood
 # flickr_username: jekyll
 # instagram_username: chillwildlife
 linkedin_username: saimmehmoodgul
+stackoverflow_id: 4044015
 #stackoverflow_username: 4044015//saim-mehmood
 # pinterest_username: jekyll
 # youtube_username: globalmtb
 # googleplus_username: +jekyll
+
+# Hero
+hero_kicker: Senior ML Platform Engineer @ Apple
+hero_tagline: I build ML platforms, LLM agents and data systems, from the Kubernetes capacity layer up to the product people use. Previously award-winning trajectory-mining research at York University.
+location: Toronto, Canada
 
 # About Section
 # about_title: About Me
@@ -43,29 +51,6 @@ about_content: | # this will include new lines to allow paragraphs
     
     During my graduate studies at York University, I was working under the supervision of [Prof. Manos Papagelis](https://www.eecs.yorku.ca/~papaggel/).
 
-    **Interests:** data mining, machine learning, data science, natural language processing (NLP), cloud computing, Agentic AI, LLMs, RAG, etc.
-
-    **Tools utilized and experimented with:** 
-    
-    • Data Mining & Visualization - Python (matplotlib, seaborn, pandas, numpy), PySpark, Power BI/Tableau
-
-    • Programming Languages - Python, Java/C#, C/C++, JavaScript/TypeScript
-   
-    • Databases - PostgreSQL/PostGIS, MongoDB, MySQL, Oracle
-
-    • Cloud & DevOps - AWS (Lambda, EC2/ECR), GCP(Vertex AI, BigQuery), Azure Databricks, Docker, GitHub Actions, Bitbucket, Jira
-
-    • Development & BI Tools - VS Code, Sourcetree, DBeaver, Power BI/Tableau, Matlab
-
-    • Operating Systems - Linux/Mac, Windows
-
-    • AI Tools & LLMs - Google Gemini, DeepSeek, OpenAI, Cohere, Ollama, Cursor, Claude
-    
-    [• Medium Profile](https://saim-mehmood-gul.medium.com/)
-
-    [• Stackoverflow Profile](https://stackoverflow.com/users/4044015/saim-mehmood)
-
-    [• Google Scholar](https://scholar.google.com/citations?hl=en&user=5_hgDIYAAAAJ)
 
 # Projects Section
 # projects_title: Projects
@@ -84,13 +69,6 @@ about_content: | # this will include new lines to allow paragraphs
 
 # More Section
 # more_title: Honors and Awards
-more_content: | # this will include new lines to allow paragraphs
-  Alongside my interests in data mining and software engineering I earned some awards:
-   - Awarded York University Graduate Fellowship for the entire duration of M.Sc. Computer Science, January 2018
-   - Electrical Engineering and Computer Science Graduate Student Association (EECS-GSA) York University, Vice-President Organization, Sep 2018 - 2019
-   - Represented Pakistani youth in China, Pakistan Youth Delegation, August 2016
-   - Won Erasmus Mundus Exchange Scholarship to spend an exchange semester at Uppsala University, May 2015 
-   - Winner 17th In-House Speed Programming Competition, University of the Punjab, May 2015
 
 # Footer
 footer_show_references: true
@@ -117,4 +95,15 @@ exclude : [
   "lib/",
   "scripts/",
   "docker-compose.yml",
+  "Dockerfile",
+  "Procfile",
+  "app.json",
+  "modern-resume-theme.gemspec",
+  "Gemfile.local",
+  "Gemfile.local.lock",
+  "README.md",
+  "CLAUDE.md",
+  "CODE_OF_CONDUCT.md",
+  "CONTRIBUTING.md",
+  "LICENSE",
   ]
